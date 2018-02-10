@@ -201,7 +201,7 @@ ul {
 }
 
 .masthead {
-	position: absolute;
+	position: relative;
 	height: calc(100% - 200px);
 	width: 100%;
 }
@@ -249,7 +249,7 @@ ul {
 }
 
 .about-section {
-
+	position: relative;
 }
 .about-overlay {
   position: absolute;
