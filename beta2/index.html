@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dartmouth Runners</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Dartmouth Runners">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Roboto:300,400,700" rel="stylesheet">
+
+	<!-- Favicons -->
+   <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+   <link rel="manifest" href="favicons/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<div class="responsive">
+			<nav class="nav-bar">
+				<img class="nav-logo" src="img/dra-05-06.svg" />
+				<ul class="nav-list">
+					<li><a href="#about">About Us</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+	</div>
+
+	<div class="masthead">
+		<div class="masthead-content">
+			<div class="masthead-overlay"></div>
+			<div class="masthead-center">
+				<div class="covervid-wrapper">
+					<video class="covervid-video" autoplay loop muted poster="img/bg-mobile-fallback.jpg">
+						<source src="mp4/bg-bw.mp4" type="video/mp4">
+					</video>
+				</div>
+				<img class="masthead-logo" src="img/dra-3.svg" alt="">
+				<br />
+				<p>Running around lakes, trying to avoid hills.</p>
+			</div>
+		</div>
+	</div>
+	<div>
+		<a name="about"></a>
+	</div>
+
+	<div class="about-section spad">
+		<div class="about-overlay"></div>
+		<div class="container">
+			<div class="section-title dark">
+				<h2>Dartmouth Runners Association</h2>
+				<h3>All paces are welcome, and newcomers are encouraged!</h3>
+				<div class="about-info">
+					<p>
+						Are you a Dartmouthagolian who enjoys running, chatting, and chatting while running? Run 6KM with us every Thursday at 6:30PM. We meet rain, shine, sleet, or snow at the Sullivan's Pond Gazebo, near Cricthon Avenue and Hawthorne Street in the heart of the Darkside.
+					</p>
+				</div>
+				<div class="map-container">
+					<div id="map"></div>
+				</div>
+				<button class="site-btn"><a>Join Us!<a></button>
+			</div>
+		</div>
+	</div>
+
+	<div class="strava-section spad">
+		<div class="container">
+			<div class="section-title">
+				<h2>Strava section</h2>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact section -->
+	<div class="contact-section spad fix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1 contact-info col-push">
+					<div class="section-title dark left">
+						<h2>Contact Us</h2>
+					</div>
+				</div>
+				<div class="col-md-6 col-pull">
+					<div class="carousel-container">
+						<div id="instafeed-carousel" class="carousel slide" data-interval="5000" data-ride="carousel">
+							<div class="carousel-inner" id="instafeed"></div>
+							<a class="carousel-control-prev" href="#instafeed-carousel" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#instafeed-carousel" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="map-container">
+	<div id="map"></div>
+	</div> -->
+
+	<footer class="footer-section">
+		<h2>2018 All rights reserved. Dartmouth Runners.</h2>
+	</footer>
+
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- covervid -->
+	<script src="vendor/covervid/covervid.min.js"></script>
+	<script type="text/javascript">
+		$('.covervid-video').coverVid(1280, 720);
+	</script>
+
+	<!-- Instafeed -->
+	<script type="text/javascript" src="vendor/instafeed.js/instafeed.min.js"></script>
+	<script type='text/javascript'>
+			var feed = new Instafeed({
+				get:"user",
+				userId: 5689721276,
+				accessToken:"5689721276.076fbee.38ef1f2b84c3415c86e20c9213700d72",
+				limit: 4,
+				sortBy: 'most-recent',
+				template: '<div class="item"><a href="{{link}}" target="_blank"><img src="{{image}}" alt="{{caption}}"/></a></div>',
+				resolution: "standard_resolution",
+				after: function () {
+					$('#instafeed > div:nth-child(1)').addClass('active');
+				}
+			});
+			feed.run();
+	</script>
+
+	<!-- Google Maps -->
+	<script async defer
+	    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXpjo5JghQAeWgFdlpW_k_QpJtp9hD7A4&callback=initMap">
+	    </script>
+	<script>
+		function initMap() {
+			var uluru = {lat: 44.673715, lng: -63.563881};
+			var map = new google.maps.Map(document.getElementById('map'), {
+				mapTypeControl: false,
+				disableDefaultUI: true,
+				scrollwheel: false,
+				navigationControl: false,
+				mapTypeControl: false,
+				scaleControl: false,
+				draggable: false,
+				zoom: 16,
+				center: uluru
+			});
+			var infowindow = new google.maps.InfoWindow({
+				content: 'Sullivan\'s Pond Gazebo'
+			});
+			var marker = new google.maps.Marker({
+				position: uluru,
+				map: map
+			});
+			infowindow.open(map, marker);
+		}
+	</script>
+
+</body>
+</html>
