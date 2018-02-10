@@ -200,26 +200,8 @@ ul {
 	margin-left: -5px;
 }
 
-.header{
-	height: 250px;
-	position: relative;
-	background-color: #fff;
-}
-.header-content {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	display: table;
-	text-align: center;
-	z-index: 5;
-}
-.header-content .header-center {
-	display: table-cell;
-	vertical-align: middle;
-}
-
 .masthead {
-	position: relative;
+	position: absolute;
 	height: calc(100% - 200px);
 	width: 100%;
 }
