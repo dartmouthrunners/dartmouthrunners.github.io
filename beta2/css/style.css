@@ -158,6 +158,8 @@ ul {
 }
 .nav-bar .nav-logo {
 	position: sticky;
+	margin-top: auto;
+	margin-bottom: auto;
 	height: 90%;
 	padding-left: 25px;
 	float: left;
@@ -201,8 +203,9 @@ ul {
 }
 
 .masthead {
+	display:block;
 	position: relative;
-	height: calc(100% - 200px);
+	height: 600px;
 	width: 100%;
 }
 .masthead-content {
@@ -249,6 +252,7 @@ ul {
 }
 
 .about-section {
+	display:block;
 	position: relative;
 }
 .about-overlay {
@@ -256,8 +260,8 @@ ul {
   background-image: url("../img/back3.png");
   background-position: 50% 50%;
   background-size: contain;
+  height: 125%;
   margin-top: -100px;
-  height: 100%;
   width: 100%;
   z-index: -999;
 }
@@ -462,6 +466,13 @@ ul {
 
 	.about-overlay {
 	  display: none;
+	}
+
+	.masthead {
+		display:block;
+		position: relative;
+		height: 400px;
+		width: 100%;
 	}
 
 	.about-info {
