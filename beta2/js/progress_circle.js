@@ -47,7 +47,7 @@ d3.csv('data/recent_activities.csv', function(data){
        .attr('width', boxSize / 2)
        .attr('height', boxSize / 2)
        .attr('x', -(boxSize/4))
-       .attr('y', -(boxSize/4 + 2*padding));
+       .attr('y', -(boxSize/4 + 3*padding));
 
    var meter = g.append('g')
        .attr('class', 'progress-meter');
@@ -76,7 +76,7 @@ d3.csv('data/recent_activities.csv', function(data){
        .attr('fill', '#343E5A')
        .attr('text-anchor', 'middle')
        .attr('dx', padding)
-       .attr('dy', radius - 6*padding);
+       .attr('dy', radius - 4*padding);
 
    function updateProgress(progress) {
        foreground.attr('d', arc.endAngle(twoPi * progress));

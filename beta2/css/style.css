@@ -402,7 +402,7 @@ ul {
 /* ----------------- */
 /* Responsive Design */
 /* Tablet: 768px - 991px */
-@media only screen and (min-width: 769px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 	/* Helper Elements */
 	.col-push {
 		left: 0;
@@ -411,11 +411,17 @@ ul {
 		right: 0;
 	}
 
+	.strava-elevation {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	/* Contact Section */
 	.carousel-container {
 	  position: relative;
-	  width: 100%;
-	  padding-top: 100%;
+	  width: 50%;
+	  padding-top: 50%;
 	  margin-right: auto;
 	  margin-left: auto;
 	  margin-top: 10px;
@@ -438,7 +444,7 @@ ul {
 }
 
 /* Mobile: < 768px */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	/* Helper Elements */
 	.col-push {
 		left: 0;
@@ -479,8 +485,8 @@ ul {
 	}
 	.carousel-container {
 	  position: relative;
-	  width: 50%;
-	  padding-top: 50%;
+	  width: 100%;
+	  padding-top: 100%;
 	  margin-right: auto;
 	  margin-left: auto;
 	  margin-top: 10px;
@@ -500,7 +506,7 @@ ul {
 	}
 
 	.strava-elevation {
-		width: 50%;
+		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 	}
