@@ -1,12 +1,10 @@
-/*----------------------------------------*/
-/*  1.  Theme default CSS
-/*----------------------------------------*/
+/*-----------------*/
+/* Common Elements */
 html,
 body {
 	height: 100%;
 	font-family: "Roboto", sans-serif;
 	weight: 300;
-	font-color: #555!important;
 }
 
 img {
@@ -23,10 +21,17 @@ h6 {
 	padding: 0;
 	margin: 0;
 	color: #343E5A;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
-
 h2 {
 	font-size: 36px;
+}
+h3 {
+	padding-top: 20px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22px;
 }
 
 p {
@@ -34,17 +39,6 @@ p {
 	color: #343E5A;
 	line-height: 30px;
 	font-family: "Roboto", sans-serif;
-}
-
-h3 {
-	padding-top: 20px;
-	font-size: 16px;
-	font-weight: 500;
-	letter-spacing: 1px;
-	line-height: 22px;
-	text-transform: uppercase;
-	font-family: roboto;
-	font-color: #555;
 }
 
 a:hover,
@@ -60,39 +54,10 @@ ul {
 	padding: 0;
 }
 
-/*------------------------
-	Helper css
---------------------------*/
+/*-----------------*/
+/* Helper Elements */
 .fix {
 	overflow: hidden;
-}
-
-.pt100 {
-	padding-top: 100px;
-}
-
-.pb100 {
-	padding-bottom: 100px;
-}
-
-.mt100 {
-	margin-top: 100px;
-}
-
-.mb100 {
-	margin-bottom: 100px;
-}
-
-.mt60 {
-	margin-top: 70px;
-}
-
-.mr20 {
-	margin-right: 20px;
-}
-
-.mb0 {
-	margin-bottom: 0 !important;
 }
 
 .col-push {
@@ -103,14 +68,16 @@ ul {
 	right: 50%;
 }
 
-.nopad {
-	padding-left: 0;
-	padding-right: 0;
-}
-
 .spad {
 	padding-top: 25px;
 	padding-bottom: 25px;
+}
+
+:target:before {
+	content:"";
+	display:block;
+	height:65px; /* fixed header height*/
+	margin:-65px 0 0; /* negative fixed header height */
 }
 
 .section-title {
@@ -125,28 +92,49 @@ ul {
 	color: #fff;
 	font-weight: 400;
 }
-
 .section-title h2 span {
 	background: #90FFC4;
 	padding: 0 3px 5px;
 	display: inline-block;
 	color: #343E5A;
 }
-
 .section-title.left {
 	text-align: left;
 }
-
 .section-title.left:after {
 	left: 0;
 	margin-left: 0;
 }
-
 .section-title.dark h2 {
 	color: #343E5A;
 }
 
-/* ================================ */
+.site-btn {
+	height: 50px;
+	width: auto;
+	border-width: 3px;
+	border-radius: 5px;
+	border-color: #90FFC4;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.site-btn:hover {
+	/* border-width: 10px; */
+}
+.site-btn a {
+	letter-spacing: 3px;
+	font-size: 16px;
+	font-family: 'Roboto';
+	color: #90FFC4;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.site-btn a:hover {
+	font-style: italic;
+}
+
+/* -------------- */
+/* Navigation Bar */
 .nav-bar {
 	position: fixed;
 	overflow: hidden;
@@ -202,6 +190,8 @@ ul {
 	margin-left: -5px;
 }
 
+/* -------- */
+/* Masthead */
 .masthead {
 	display:block;
 	position: relative;
@@ -251,6 +241,8 @@ ul {
 	 z-index: -10;
 }
 
+/* ------------- */
+/* About Section */
 .about-section {
 	display:block;
 	position: relative;
@@ -274,7 +266,6 @@ ul {
 .about-info p {
 	color: #343E5A;
 }
-
 .map-container {
 	position: relative;
 	padding-left: 25%;
@@ -287,67 +278,38 @@ ul {
 	width: 100%;
 }
 
-.thisweek-section {
-	background-color: #343E5A;
-}
-.thisweek-route {
-	padding-top: 25px;
-}
-.thisweek-route h3 {
-	text-align: left;
-	font-weight: 300;
-	padding-top: 25px;
-	color: #fff;
-	letter-spacing: 2px;
-}
-.thisweek-route img {
-	padding-bottom: 25px;
-	padding-top: 15px;
-}
-.thisweek-route p {
-	text-align: left;
-	color: #fff
-}
-
-.site-btn {
-	height: 50px;
-	width: auto;
-	border-width: 3px;
-	border-radius: 5px;
-	border-color: #90FFC4;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-.site-btn:hover {
-
-	/* border-width: 10px; */
-}
-
-.site-btn a {
-	letter-spacing: 3px;
-	font-size: 16px;
-	font-family: 'Roboto';
-	color: #90FFC4;
-	text-transform: uppercase;
-	font-weight: 500;
-}
-.site-btn a:hover {
-	font-style: italic;
-}
-
+/* -------------- */
+/* Strava Section */
 .strava-section {
 	position: relative;
-	background-color: #343E5A;
-	height: 500px;
+	background-color: #f6f6f6;
 	width: 100%;
+	height:
+}
+.strava-section p {
+	color: #fff;
+}
+.strava-elevation {
+	width: 100%;
+	text-align: center;
+}
+.strava-elevation #everest-tracker {
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+.everest-tracker text {
+	font-family: "Oswald", sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
- /*------------------------
- 	Contact section
- --------------------------*/
+ /* --------------- */
+ /* Contact Section */
  .contact-section {
  	position: relative;
-	background-color: #f6f6f6;
+	background-color: #90FFC4;
 	z-index: -2;
  }
  .contact-section:after {
@@ -357,8 +319,18 @@ ul {
  	height: 100%;
  	right: -15px;
  	top: 0;
- 	background: #90FFC4;
  	z-index: -1;
+ }
+ .contact-section a {
+ 	color: #343E5A;
+	font-weight: bold;
+ }
+ .contact-section a:hover {
+	 font-style: italic;
+ }
+ #email {
+	 font-family: 'Roboto';
+	 font-size: 18px;
  }
 
  .carousel-container {
@@ -368,22 +340,15 @@ ul {
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 50px;
- 	z-index: 5;
  }
  .carousel{
 	position: absolute;
 	padding-top: 25px;
 	top: 0;
-	z-index: 4;
  }
 
-
- /* Contact Info*/
  .contact-info .section-title {
  	margin-bottom: 40px;
- }
- .contact-info p {
- 	color: #fff;
  }
  .contact-info h3 {
  	font-weight: 400;
@@ -394,9 +359,34 @@ ul {
  	font-size: 14px;
  }
 
-/*------------------------
-	Footer section
---------------------------*/
+.social-icons{
+	padding-top: 25px;
+	float: left;
+}
+ .social-icons ul {
+   margin-top: 2rem;
+ }
+ .social-icons ul > li {
+   margin-left: 1rem;
+   margin-right: 1rem;
+   display: inline-block;
+ }
+ .social-icons ul > li > a {
+   display: block;
+   color: white;
+   background-color: rgba(52, 62, 89, 0.80);
+   border-radius: 100%;
+   font-size: 24px;
+   line-height: 5rem;
+   height: 5rem;
+   width: 5rem;
+ }
+ .social-icons ul > li > a:hover {
+	background-color: rgba(52, 62, 89, 0.95);
+ }
+
+/* -------------- */
+/* Footer Section */
 .footer-section {
 	background: #343E5A;
 	text-align: center;
@@ -406,95 +396,94 @@ ul {
 	font-size: 14px;
 	font-weight: 300;
 	text-transform: uppercase;
-	padding: 18px 0;
+	padding: 18px 5%;
 }
 
-
-/* ===========================
-	Responsive
-==============================*/
-/* Tablet :768px. */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.overlay {
-		height: 100%;
-		background-repeat: repeat;
-	}
-	.contact-section::after {
-		width: 100%;
-		right: 0;
-	}
-	.contact-info {
-		margin-bottom: 95px;
-	}
+/* ----------------- */
+/* Responsive Design */
+/* Tablet: 768px - 991px */
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+	/* Helper Elements */
 	.col-push {
 		left: 0;
 	}
 	.col-pull {
 		right: 0;
 	}
-}
 
-/* Large Mobile :480px. */
-@media only screen and (max-width: 767px) {
-	.overlay {
-		max-width:100%;
-		max-height:100%;
-		object-fit: fill;
-	}
-	.masthead-content .masthead-logo {
-		width: 100%;
+	/* Contact Section */
+	.carousel-container {
+	  position: relative;
+	  width: 100%;
+	  padding-top: 100%;
+	  margin-right: auto;
+	  margin-left: auto;
+	  margin-top: 10px;
+	  margin-bottom: 25px;
+	  z-index: 5;
 	}
 	.contact-section::after {
 		width: 100%;
-		right: 0;
 	}
 	.contact-info {
-		margin-bottom: 95px;
+		margin-bottom: 25px;
 	}
+	.contact-info {
+		text-align: left;
+	}
+	.social-icons {
+		padding-top: 0px;
+		float: none;
+	}
+}
+
+/* Mobile: < 768px */
+@media only screen and (max-width: 768px) {
+	/* Helper Elements */
 	.col-push {
 		left: 0;
 	}
 	.col-pull {
 		right: 0;
 	}
-	.buttons button {
-		margin-bottom: 20px;
-	}
-	.responsive {
-		display: none;
+	.section-title.left {
+		text-align: center;
 	}
 
-	.about-overlay {
-	  display: none;
-	}
-
+	/* Masthead */
 	.masthead {
 		display:block;
 		position: relative;
 		height: 400px;
 		width: 100%;
 	}
+	.masthead-content .masthead-logo {
+		width: 100%;
+	}
 
+	/* About Section */
+	.about-overlay {
+	  display: none;
+	}
 	.about-info {
-		padding-left: 5%;
-		padding-right: 5%;
+		padding-left: 0%;
+		padding-right: 0%;
 		padding-top: 25px;
 		padding-bottom: 25px;
 	}
 	.about-info p {
 		color: #343E5A;
 	}
-
 	.carousel-container {
 	  position: relative;
-	  width: 100%;
-	  padding-top: 100%;
+	  width: 50%;
+	  padding-top: 50%;
 	  margin-right: auto;
-	  margin-top: 20px;
+	  margin-left: auto;
+	  margin-top: 10px;
 	  margin-bottom: 25px;
 	  z-index: 5;
 	}
-
 	.map-container {
 		position: relative;
 		padding-left: 0;
@@ -507,5 +496,22 @@ ul {
 		width: 100%;
 	}
 
+	.strava-elevation {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
+	/* Contact Section */
+	.contact-section::after {
+		width: 100%;
+		right: 0;
+	}
+	.contact-info {
+		text-align: center;
+	}
+	.social-icons {
+		padding-top: 0px;
+		float: none;
+	}
 }

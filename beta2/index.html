@@ -29,9 +29,12 @@
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css"/>
+
+	<!-- JS libraries -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
 	<!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -40,16 +43,19 @@
 
 </head>
 <body>
+	<!-- Nav Bar -->
 	<div class="responsive">
 			<nav class="nav-bar">
-				<img class="nav-logo" src="img/dra-05-06.svg" />
+				<a href="#"><img class="nav-logo" src="img/dra-05-06.svg" href="#"/>
 				<ul class="nav-list">
 					<li><a href="#about">About Us</a></li>
+					<li><a href="#">Schedule</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 	</div>
 
+	<!-- Masthead -->
 	<div class="masthead">
 		<div class="masthead-content">
 			<div class="masthead-overlay"></div>
@@ -65,10 +71,9 @@
 			</div>
 		</div>
 	</div>
-	<div>
-		<a name="about"></a>
-	</div>
 
+	<!-- About Section -->
+	<a name="about"></a>
 	<div class="about-section spad">
 		<div class="about-overlay"></div>
 		<div class="container">
@@ -88,15 +93,30 @@
 		</div>
 	</div>
 
+	<!-- Strava Section  -->
 	<div class="strava-section spad">
 		<div class="container">
-			<div class="section-title">
-				<h2>Strava section</h2>
+			<div class="col-md-7 col-md-offset-1">
+				<div class="section-title left dark">
+					<h2>Km's crushed this month</h2>
+				</div>
+				<div class="strava-kms-crushed">
+					<div id="strava-kms"></div>
+				</div>
 			</div>
+
+			<div class="col-md-3">
+				<div class="strava-elevation">
+					<h3>Everest tracker</h3>
+					<div id="everest-tracker"></div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
 		</div>
 	</div>
 
 	<!-- Contact section -->
+	<a name="contact"></a>
 	<div class="contact-section spad fix">
 		<div class="container">
 			<div class="row">
@@ -104,18 +124,46 @@
 					<div class="section-title dark left">
 						<h2>Contact Us</h2>
 					</div>
+					<p>
+						Checkout our <a href="#">FAQ</a> page for more info on our weekly runs! <br />OR feel free to send us an email!
+					</p>
+					<div class="social-icons">
+				      <ul class="list-unstyled text-center mb-0">
+							<li class="list-unstyled-item">
+				            <a href="mailto:dartmouthrunning@gmail.com">
+					            <i class="far fa-envelope"></i>
+				          	</a>
+				         </li>
+							<li class="list-unstyled-item">
+				            <a href="https://www.instagram.com/dartmouthrunning/">
+					            <i class="fab fa-instagram"></i>
+				          	</a>
+				         </li>
+				         <li class="list-unstyled-item">
+				            <a href="https://www.strava.com/clubs/253520">
+					            <i class="fab fa-strava"></i>
+				          </a>
+				         </li>
+				      </ul>
+				   </div>
+
+
 				</div>
 				<div class="col-md-6 col-pull">
 					<div class="carousel-container">
 						<div id="instafeed-carousel" class="carousel slide" data-interval="5000" data-ride="carousel">
+							<ol class="carousel-indicators">
+						    <li data-target="#instafeed-carousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#instafeed-carousel" data-slide-to="1"></li>
+						    <li data-target="#instafeed-carousel" data-slide-to="2"></li>
+							 <li data-target="#instafeed-carousel" data-slide-to="3"></li>
+						  </ol>
 							<div class="carousel-inner" id="instafeed"></div>
 							<a class="carousel-control-prev" href="#instafeed-carousel" role="button" data-slide="prev">
 								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
 							</a>
 							<a class="carousel-control-next" href="#instafeed-carousel" role="button" data-slide="next">
 								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
 							</a>
 						</div>
 					</div>
@@ -124,16 +172,9 @@
 		</div>
 	</div>
 
-	<!-- <div class="map-container">
-	<div id="map"></div>
-	</div> -->
-
 	<footer class="footer-section">
 		<h2>2018 All rights reserved. Dartmouth Runners.</h2>
 	</footer>
-
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 
 	<!-- covervid -->
 	<script src="vendor/covervid/covervid.min.js"></script>
@@ -188,5 +229,8 @@
 		}
 	</script>
 
+	<!-- D3 library -->
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="js/progress_circle.js"></script>
 </body>
 </html>

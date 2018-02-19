@@ -1,7 +1,18 @@
+""" update_members.py
+Gets the full list of DRA members and inserts them into the
+MongoDB database. If they already exist, they are simply overwritten.
+In this way, updates to user profiles are carried forward.
+
+Author: Mark Thomas
+Date: 2018-02-16
+"""
+
+## Imports
 import json
 import requests
 from pymongo import MongoClient
 
+## Read the API token from file
 with open('strava/auth_token', 'r') as f:
     API_TOKEN = f.readline().rstrip()
 
@@ -15,4 +26,5 @@ members = json.loads(response.content)
 ## 'members' collection of the 'dartmouth_runners' database.
 client = MongoClient('mongodb://localhost:27017/')
 db = client.dartmouth_runners
-coll = db.members.insert_many(members)
+db.members.delete_many({})
+db.members.insert_many(members)
