@@ -189,6 +189,9 @@ ul {
 	width: 10px;
 	margin-left: -5px;
 }
+.small-nav {
+	display: none;
+}
 
 /* -------- */
 /* Masthead */
@@ -459,21 +462,59 @@ ul {
 		display: none;
 	}
 
+	.large-nav {
+		display: none;
+	}
+	.small-nav {
+		display: block;
+	}
 	.nav-bar {
-		height: 45px;
+		height: 55px;
+		width: 100%;
 	}
 	.nav-bar .nav-logo {
 		padding-left: 5px;
+		padding-right: 0;
+		margin-right: 0;
 	}
-
-	/* Masthead */
-	.masthead {
-		position: relative;
-		/* padding-top: 45px; */
-		height: 400px;
+	.nav-bar .nav-list {
+		position: sticky;
+		height: 100%;
+		float: right;
 	}
-	.masthead-content .masthead-logo {
-		width: 100%;
+	.nav-bar .nav-list li {
+		position: sticky;
+		height: 55px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.nav-bar .nav-list li a {
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		padding-left: 2px;
+		padding-right: 16px;
+		display: inline-block;
+		color: #fff;
+		font-size: 22px;
+		font-weight: 300;
+		text-align: center;
+		margin-bottom: auto;
+	}
+	.nav-bar .nav-list li a:hover,
+	.nav-bar .nav-list li a.active {
+		color: rgb(143, 255, 198);
+		font-style: italic;
+	}
+	.nav-bar .nav-list li:last-child a {
+		margin-right: 0;
+	}
+	.nav-bar .nav-list li.active a {
+		background: rgba(143, 255, 198, .9);
+		color: #fff;
+	}
+	.nav-bar .nav-list .current a:after {
+		width: 10px;
+		margin-left: -5px;
 	}
 
 	/* About Section */
