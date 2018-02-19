@@ -520,6 +520,10 @@ ul {
 		margin-left: -5px;
 	}
 
+	.masthead {
+		height: 400px;
+	}
+
 	/* About Section */
 	.about-overlay {
 	  display: none;
