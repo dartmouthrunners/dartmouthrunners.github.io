@@ -498,7 +498,7 @@ ul {
 		font-size: 22px;
 		font-weight: 300;
 		text-align: center;
-		margin-bottom: auto;
+		margin-bottom: 16.5;
 	}
 	.nav-bar .nav-list li a:hover,
 	.nav-bar .nav-list li a.active {
