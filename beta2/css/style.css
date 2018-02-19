@@ -193,7 +193,7 @@ ul {
 /* -------- */
 /* Masthead */
 .masthead {
-	display:block;
+	display: block;
 	position: relative;
 	height: 600px;
 	width: 100%;
@@ -459,12 +459,18 @@ ul {
 		display: none;
 	}
 
+	.nav-bar {
+		height: 45px;
+	}
+	.nav-bar .nav-logo {
+		padding-left: 5px;
+	}
+
 	/* Masthead */
 	.masthead {
-		display:block;
 		position: relative;
+		/* padding-top: 45px; */
 		height: 400px;
-		width: 100%;
 	}
 	.masthead-content .masthead-logo {
 		width: 100%;
