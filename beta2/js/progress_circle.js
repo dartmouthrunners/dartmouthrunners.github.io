@@ -86,12 +86,20 @@ d3.csv('data/recent_activities.csv', function(data){
 
    var progress = startPercent;
 
-   (function loops() {
-       updateProgress(progress);
-       if (count > 0) {
-           count--;
-           progress += step;
-           setTimeout(loops, 10);
-       }
-   })();
+   $(window).scroll(function() {
+   var hT = $('#strava').offset().top,
+       hH = $('#strava').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+   if (wS > (hT+hH-wH)){
+      (function loops() {
+          updateProgress(progress);
+          if (count > 0) {
+             count--;
+             progress += step;
+             setTimeout(loops, 200);
+          }
+      })();
+   }
+   });
 });
