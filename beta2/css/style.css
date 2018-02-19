@@ -449,6 +449,9 @@ ul {
 	.section-title.left {
 		text-align: center;
 	}
+	.responsive {
+		display: none;
+	}
 
 	/* Masthead */
 	.masthead {
