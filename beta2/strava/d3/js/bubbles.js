@@ -20,7 +20,13 @@
 
    // Initialize the svg definitions and other D3 parameters
    var defs = svg.append("defs");
-   var radiusScale = d3.scalePow().domain([1, 1]).exponent(0.5).range([1, 65]);
+
+   if (width < 378) {
+      var radiusScale = d3.scalePow().domain([1, 1]).exponent(0.5).range([1, 65]);
+   } else {
+      var radiusScale = d3.scalePow().domain([1, 1]).exponent(0.5).range([1, 85]);
+   }
+
    var forceStrength = 0.03;
 
    // Define the force simulation
@@ -94,9 +100,9 @@
 
       // include a toolbar for the hover
       $('svg circle').tipsy({
-         gravity: 'w',
          html: true,
          opacity: 1,
+
          title: function() {
             var d = this.__data__, name = d.firstname, dist = Math.round(d.distance / 1000);
             return name  + ' has run ' + dist + ' KMs this month!';

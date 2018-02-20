@@ -297,6 +297,7 @@ ul {
 	height: 400px;
 	text-align: center;
 	overflow: hidden;
+	padding-bottom: 25px;
 }
 .strava-kms-crushed #strava-kms {
 	display: inline-block;
@@ -311,6 +312,7 @@ ul {
 	height: 400px;
 	text-align: center;
 	overflow: hidden;
+	padding-bottom: 50px;
 }
 .strava-elevation #everest {
 	display: inline-block;
@@ -324,7 +326,6 @@ ul {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-
 
  /* --------------- */
  /* Contact Section */
