@@ -292,7 +292,6 @@ ul {
 }
 .strava-kms-crushed {
 	position: relative;
-	display: inline-block;
 	width: 100%;
 	height: 400px;
 	text-align: center;
@@ -307,20 +306,20 @@ ul {
 }
 .strava-elevation {
 	position: relative;
-	display: inline-block;
 	width: 100%;
 	height: 400px;
 	text-align: center;
 	overflow: hidden;
 	padding-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .strava-elevation #everest {
 	display: inline-block;
 	position: absolute;
-	top: 0;
-	left: 0;
+
 }
-.everest-tracker text {
+.everest text {
 	font-family: "Oswald", sans-serif;
 	font-size: 24px;
 	text-transform: uppercase;
@@ -595,5 +594,12 @@ ul {
 	.social-icons {
 		padding-top: 0px;
 		float: none;
+	}
+}
+
+/* WEIRD D3 issue with iPad in landscape */
+@media only screen and (width: 1024px){
+	.strava-kms-crushed {
+		margin-top: -55px;
 	}
 }

@@ -1,4 +1,4 @@
-(function() {
+function redraw() {
 
    // Define the height and width of the SVG
    var parent = d3.select('div.strava-kms-crushed');
@@ -109,4 +109,10 @@
          }
       });
    }
-})();
+}
+
+// Draw for the first time to initialize.
+redraw();
+
+// Redraw based on the new size whenever the browser window is resized.
+window.addEventListener("resize", redraw);
