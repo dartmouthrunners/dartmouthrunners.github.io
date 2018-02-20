@@ -247,7 +247,7 @@ function drawBubbles() {
 var firstScroll = false;
 
 $(window).on('scroll', function() {
-   if (isScrolledIntoView('#everest') && !firstScroll) {
+   if (isScrolledIntoView('#strava-kms') && !firstScroll) {
       drawCircle();
       drawBubbles();
    }
