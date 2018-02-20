@@ -296,7 +296,6 @@ ul {
 	height: 400px;
 	text-align: center;
 	overflow: hidden;
-	padding-bottom: 25px;
 }
 .strava-kms-crushed #strava-kms {
 	display: inline-block;
@@ -310,7 +309,6 @@ ul {
 	height: 400px;
 	text-align: center;
 	overflow: hidden;
-	padding-bottom: 50px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -581,7 +579,7 @@ ul {
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		padding-bottom: 10px;
+		margin-bottom: -50px;
 	}
 
 	/* Contact Section */
