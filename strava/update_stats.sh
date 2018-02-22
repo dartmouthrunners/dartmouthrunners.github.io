@@ -12,6 +12,6 @@ cd /Users/markdjthomas/Dropbox/coding/dartmouthrunners.github.io/
 # push the changes to Github
 /usr/local/bin/git add strava/data/recent_activities.csv
 /usr/local/bin/git commit -m "updated strava stats"
-/usr/local/bin/git push origin master
+/usr/local/bin/git push
 
 echo "All done!"
