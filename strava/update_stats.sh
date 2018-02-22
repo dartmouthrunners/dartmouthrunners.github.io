@@ -5,13 +5,13 @@ set -e
 cd /Users/markdjthomas/Dropbox/coding/dartmouthrunners.github.io/
 
 # run the mongoDB update scripts
-python3 strava/py/update_members.py
-python3 strava/py/collect_club_data.py
-python3 strava/py/summarise_activities.py
+/usr/local/bin/python3 strava/py/update_members.py
+/usr/local/bin/python3 strava/py/collect_club_data.py
+/usr/local/bin/python3 strava/py/summarise_activities.py
 
 # push the changes to Github
-git add strava/data/recent_activities.csv
-git commit -m "updated strava stats"
-git push origin master
+/usr/local/bin/git add strava/data/recent_activities.csv
+/usr/local/bin/git commit -m "updated strava stats"
+/usr/local/bin/git push origin master
 
 echo "All done!"
