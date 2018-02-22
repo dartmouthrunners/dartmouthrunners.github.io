@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 """ update_members.py
 Gets the full list of DRA members and inserts them into the
 MongoDB database. If they already exist, they are simply overwritten.

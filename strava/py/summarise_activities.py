@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 """ summarise_activities.py
 Builds a JSON representation of the last 30 days worth of activities for
 each member and includes their total number of runs and distance ran.
@@ -39,4 +41,4 @@ activities = pd.DataFrame(list(cursor)).rename(index=str, columns={'_id': 'id'})
 
 ## Left join the two DataFrames by athlete 'id'
 member_data = pd.merge(members, activities, on='id')
-member_data.to_csv('strava/data/recent_activities.csv', index=False)
+member_data.to_csv('/Users/markdjthomas/Dropbox/coding/dartmouthrunners.github.io/strava/data/recent_activities.csv', index=False)

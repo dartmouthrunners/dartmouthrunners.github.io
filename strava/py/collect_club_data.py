@@ -1,9 +1,11 @@
+#!/usr/local/bin/python3
+
 """ collect_club_data.py
 Gathers the club stats for each member of DRA and save the results to be
 visulized using d3.
 
 Author: Mark Thomas
-Date: 2018-02-16
+Date: 2018-02-22
 """
 
 ## Imports
@@ -29,8 +31,13 @@ db.activities.delete_many({})
 # Define the header
 header = {'Authorization': 'Bearer ' + API_TOKEN}
 
-for i in range(1, 4):
-    request_uri = 'https://www.strava.com/api/v3/clubs/253520/activities?page=' + str(i) + '&per_page=100'
-    response = requests.get(request_uri, headers=header)
-    activities = json.loads(response.content)
-    db.activities.insert_many(activities)
+# Do the requests
+try:
+    for i in range(1, 10):
+        request_uri = 'https://www.strava.com/api/v3/clubs/253520/activities?page=' + str(i) + '&per_page=30'
+        response = requests.get(request_uri, headers=header)
+        activities = json.loads(response.content)
+        db.activities.insert_many(activities)
+except Exception as e:
+    if str(e) != 'documents must be a non-empty list':
+        raise e
