@@ -208,7 +208,7 @@
 			// route stats
 			var dist = Math.round(10 * (data.distance/1000)) / 10;
 			var elev = Math.round(data.elevation_gain);
-			document.getElementById('route-stats').innerHTML = dist + 'km ' + '&nbsp;//&nbsp;&nbsp;' + elev + ' elevation gain';
+			document.getElementById('route-stats').innerHTML = dist + 'km ' + '&nbsp;//&nbsp;&nbsp;' + elev + 'm elevation gain';
 
 			// route description
 			document.getElementById('route-description').innerHTML = data.description;
