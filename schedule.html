@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Dartmouth Runners - FAQ</title>
+	<title>Dartmouth Runners</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Dartmouth Runners">
 	<meta name="keywords" content="">
@@ -53,11 +53,14 @@
 	<!-- Stylesheets -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"/>
+	<link href="strava/d3/css/tipsy.css" rel="stylesheet" />
 	<link href="css/style.css" rel="stylesheet" />
 
 	<!-- JS libraries -->
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="strava/d3/js/jquery.tipsy.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
 
 	<!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -82,91 +85,36 @@
 		 <div id="navbar" class="navbar-collapse collapse">
 			<ul class="white-nav nav navbar-nav navbar-right">
 			  <li><a href="index.html#about">About Us</a></li>
-			  <li><a href="schedule.html">Schedule</a></li>
-			  <li><a href="#faq">FAQ</a></li>
+			  <li><a href="#schedule">Schedule</a></li>
+			  <li><a href="faq.html">FAQ</a></li>
 			  <li><a href="#contact">Contact</a></li>
 			</ul>
 		 </div>
 	  </div>
 	</nav>
 
-	<!-- About Section -->
+	<!-- Schedule Section -->
 	<a name="faq"></a>
 	<div class="faq-section spad">
 		<div class="faq-overlay"></div>
 		<div class="container">
 			<div class="section-title dark">
-				<h2>Frequently Asked Questions</h2>
+				<h2>This week's route</h2>
 			</div>
-			<div class="faq-info">
-				<h3>I'm so down! When, what time, and where?</h3>
-				<p>
-					We meet on Thursday nights, rain or shine, at 6:30PM sharp! <a href="#location">See below</a> for the meeting location.
-				</p>
-			</div>
-			<a name="location"></a>
-			<div class="faq-info">
-				<h3>Where do you guys meet?</h3>
-				<p>
-					We meet in the heart of Dartmouth at Sullivan's Pond. More specifically, we meet at the Gazebo near the corner of Hawthorne Street and Crighton Avenue. Check out the map below for details!
-				</p>
+			<div class="faq-info" style="padding-top: 25px">
+				<h5 id="route-date"></h5>
+				<h3 id="route-name"></h3>
+				<p id="route-stats"></p>
 			</div>
 			<div class="map-container">
 				<div id="map"></div>
 			</div>
 			<div class="faq-info">
-				<h3>Do you run at any other times?</h3>
-				<p>
-					For now we don’t have any other scheduled run times. We do, however, organize special events or longer runs from time to time!
-				</p>
+				<p id="route-description"></p>
 			</div>
 			<div class="faq-info">
-				<h3>How fast do you run?</h3>
-				<p>
-					We are a diverse group of runners and we like to stick together as a group. In order to achieve this, we typically run at a 6:00min/km pace. But never fear, we are a friendly crew, so you’ll find a buddy to stick with if you’re feeling gassed or extra motivated.
-				</p>
+				<h3 id="strava-link" style="padding-top: 15px; padding-bottom: 25px"></h3>
 			</div>
-			<div class="faq-info">
-				<h3>Do you get together after the runs?</h3>
-				<p>
-					After our first run of the month we like to grab a beer…..and/or pizza….and/or wings!
-				</p>
-			</div>
-			<div class="faq-info">
-				<h3>This sounds too good to be true…Is it free to join?</h3>
-				<p>
-					Yes! It’s FREE!
-				</p>
-			</div>
-			<div class="faq-info">
-				<h3>Where can I check out this weeks route?</h3>
-				<p>
-					If you'd like to see the route ahead of time, join our club on <a href="https://www.strava.com/clubs/dartmouthrunners">Strava</a>. The routes are posted there beforehand. And remember, if your run isn't on Strava, it didn't happen!
-				</p>
-			</div>
-			<!-- <div class="faq-info">
-				<h3>I'm new to running or don't run often, can I come?</h3>
-				<p>
-					Of course! We run roughly 6KM every week with the option of a 4KM turning point. If you can handle either of those distances, you're more than ready. If you have any specific concerns, <a href="mailto:dartmouthrunners@gmail.com">let us know</a> and we will help you out!
-				</p>
-			</div> -->
-			<div class="faq-info">
-				<h3>Do you have a place to store belongings?</h3>
-				<p>
-					Sorry, as of right now, we do not.
-				</p>
-			</div>
-
-			<div class="faq-info">
-				<h3>Can I bring my doggo?</h3>
-				<p>
-					If your dog is well behaved, sure thing! Make sure your dog has experience running with groups of people and along roadsides.
-				</p>
-			</div>
-
-		</div>
-		<div class="faq-info">
-			<h3 style="padding-top: 15px; padding-bottom: 25px">We can't wait to run with you!</h3>
 		</div>
 	</div>
 
@@ -195,7 +143,7 @@
 				          	</a>
 							</li>
 							<li class="list-unstyled-item">
-								<a href="https://www.strava.com/clubs/253520">
+								<a href="https://www.strava.com/clubs/dartmouthrunners">
 					            <i class="fab fa-strava"></i>
 				          </a>
 							</li>
@@ -249,34 +197,87 @@
 		feed.run();
 	</script>
 
+	<script type="text/javascript">
+		$.getJSON("strava/data/route_details.json", function(data) {
+			// populate the date
+			document.getElementById('route-date').innerHTML = data.date;
+
+			// populate the route name
+			document.getElementById('route-name').innerHTML = data.name;
+
+			// route stats
+			var dist = Math.round(10 * (data.distance/1000)) / 10;
+			var elev = Math.round(data.elevation_gain);
+			document.getElementById('route-stats').innerHTML = dist + 'km ' + '&nbsp;//&nbsp;&nbsp;' + elev + ' elevation gain';
+
+			// route description
+			document.getElementById('route-description').innerHTML = data.description;
+
+			// strava link
+			document.getElementById('strava-link').innerHTML = 'Check out the route on <a href="https://www.strava.com/routes/' + data.id + '">Strava</a>.';
+		})
+	</script>
+
 	<!-- Google Maps -->
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAt6oregj7ztZZF2IUz2RvW6gPOMeJBd-A&callback=initMap">
+	<script async defer src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyAt6oregj7ztZZF2IUz2RvW6gPOMeJBd-A&callback=initMap">
 	</script>
 	<script>
 		function initMap() {
-			var uluru = {
-				lat: 44.673715,
-				lng: -63.563881
-			};
-			var map = new google.maps.Map(document.getElementById('map'), {
-				mapTypeControl: false,
-				disableDefaultUI: true,
-				// scrollwheel: false,
-				// navigationControl: false,
-				mapTypeControl: false,
-				// scaleControl: false,
-				// draggable: false,
-				zoom: 16,
-				center: uluru
+			$.getJSON("strava/data/route_details.json", function(data) {
+
+				var latlng = new google.maps.LatLng(44.673715, -63.563881);
+				var options = {
+					zoom: 12,
+					center: latlng,
+					mapTypeId: google.maps.MapTypeId.ROADMAP,
+					disableDefaultUI: true,
+					navigationControl: false,
+					mapTypeControl: false
+				}
+
+				var map = new google.maps.Map(document.getElementById("map"), options);
+
+				var decodedPath = google.maps.geometry.encoding.decodePath(data.polyline);
+				var decodedLevels = decodeLevels("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
+
+				var polyline = new google.maps.Polyline({
+					path: decodedPath,
+					levels: decodedLevels,
+					strokeColor: "#FF0000",
+					strokeOpacity: 1.0,
+					strokeWeight: 2,
+					map: map
+				});
+
+				var infowindow = new google.maps.InfoWindow({
+					content: 'Sullivan\'s Pond Gazebo'
+				});
+				var marker = new google.maps.Marker({
+					position: latlng,
+					map: map
+				});
+				infowindow.open(map, marker);
+
+				google.maps.Polyline.prototype.getBounds = function() {
+					var bounds = new google.maps.LatLngBounds();
+					this.getPath().forEach(function(e) {
+						bounds.extend(e);
+					});
+					return bounds;
+				}
+
+				map.fitBounds(polyline.getBounds());
 			});
-			var infowindow = new google.maps.InfoWindow({
-				content: 'Sullivan\'s Pond Gazebo'
-			});
-			var marker = new google.maps.Marker({
-				position: uluru,
-				map: map
-			});
-			infowindow.open(map, marker);
+		}
+
+		function decodeLevels(encodedLevelsString) {
+			var decodedLevels = [];
+
+			for (var i = 0; i < encodedLevelsString.length; ++i) {
+				var level = encodedLevelsString.charCodeAt(i) - 63;
+				decodedLevels.push(level);
+			}
+			return decodedLevels;
 		}
 	</script>
 
