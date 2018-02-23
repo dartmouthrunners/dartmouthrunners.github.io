@@ -11,7 +11,7 @@ ROUTE_ID = 11136796
 
 DESCRIPTION = "What are Thursdays for….? For the 'voys (voyages of friendship, I mean come on this works on so many levels). Get your shoes tied up, grab your reflective devices and let's head out for a February run.<br />We run the Dartmouth Roadrunner. Starts with a trip up Maple, head out Slayter and back Victoria. Head down Thistle to Alderney, back up Portland, and around the Pleasant-Portland-Hawthorne loop back to the Gazebo.<br />Remember to check out the route map, posted above or on Strava. We meet at the Sullivan's Pond Gazebo at 6:25 and leave at 6:30pm sharp. Bring friends!!!"
 
-RUN_DATE = "February 22, 2018"
+RUN_DATE = "March 1, 2018"
 # ===================================================== #
 
 ## Imports
