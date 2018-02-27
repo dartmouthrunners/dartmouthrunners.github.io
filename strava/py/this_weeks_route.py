@@ -9,7 +9,7 @@ Date: 2018-02-20
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 ROUTE_ID = 7537815
 
-DESCRIPTION = "Description coming soon..."
+DESCRIPTION = "In honour of our 1st anniversary, we run a rendition of out first ever route.<br />The Classic Lake Banook Loop starts with a quick detour around Hawthorne,<br />heads around Lake Banook, up onto the Lygnby Straight.<br />We finish down Forrest and Crichton Avenue back to the Gazebo"
 
 RUN_DATE = "March 1, 2018"
 # ===================================================== #
