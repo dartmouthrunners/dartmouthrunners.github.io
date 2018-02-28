@@ -25,11 +25,12 @@ members = pd.DataFrame(list(cursor)).drop('_id', axis=1)
 
 ## Build a pandas DataFrame containing the total KMs and number
 ## of runs for each member over the last 7 days of activities
-last_30d = (datetime.today() - timedelta(days=30)).strftime('%Y-%m-%dT%H:%M:%SZ')
+today = datetime.today()
+month = datetime(today.year, today.month, 1).strftime('%Y-%m-%dT%H:%M:%SZ')
 cursor = db.activities.aggregate([
     {'$match': {
         'type': 'Run',
-        'start_date_local': { '$gte': last_30d }
+        'start_date_local': { '$gte': month }
     }},
     {'$group': {
         '_id': '$athlete.id',
