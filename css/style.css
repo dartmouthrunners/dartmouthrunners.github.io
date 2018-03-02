@@ -242,11 +242,11 @@ ul {
 .about-overlay {
   position: absolute;
   background-image: url("../img/back3.png");
-  background-position: 50% 50%;
+  background-position: center;
   background-size: contain;
   height: 125%;
   margin-top: -100px;
-  width: 100%;
+  min-width: 100%;
   z-index: -999;
 }
 .about-info {
@@ -605,5 +605,11 @@ ul {
 @media only screen and (width: 1024px){
 	.strava-kms-crushed {
 		margin-top: -55px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	.about-overlay {
+		background-size: cover;
 	}
 }
