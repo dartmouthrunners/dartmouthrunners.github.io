@@ -9,7 +9,7 @@ Date: 2018-02-20
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 ROUTE_ID = 12094281
 
-DESCRIPTION = "Happy International Women’s Day!<br />Tonight we salute all you female identifying folks who are<br />crushing kms and the patriarchy.<br />We’re all better for it.<br />Who runs the world? Girls.<br />#PressforProgress #IWD2018"
+DESCRIPTION = "Happy International Women’s Day!<br />Tonight we salute all you female identifying folks who are crushing kms and the patriarchy.<br />We’re all better for it. Who runs the world? Girls.<br />#PressforProgress #IWD2018"
 
 RUN_DATE = "March 8, 2018"
 # ===================================================== #
