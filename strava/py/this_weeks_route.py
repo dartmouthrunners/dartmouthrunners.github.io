@@ -7,11 +7,11 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 7537815
+ROUTE_ID = 12094281
 
-DESCRIPTION = "In honour of our 1st anniversary, we run a rendition of our first ever route.<br />The Classic Lake Banook Loop starts with a quick detour around Hawthorne,<br />heads around Lake Banook, up onto the Lygnby Street.<br />We finish down Forrest and Crichton Avenue, back to the Gazebo"
+DESCRIPTION = "Happy International Women’s Day!<br />Tonight we salute all you female identifying folks who are<br />crushing kms and the patriarchy.<br />We’re all better for it.<br />Who runs the world? Girls.<br />#PressforProgress #IWD2018"
 
-RUN_DATE = "March 1, 2018"
+RUN_DATE = "March 8, 2018"
 # ===================================================== #
 
 ## Imports
