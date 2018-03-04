@@ -12,7 +12,6 @@ function drawCircle() {
          var radius = (Math.min(parentWidth * 0.90, parentHeight * 0.90)) / 2;
       }
 
-
       var border = 5;
       var padding = 10;
       var startPercent = 0;
@@ -158,7 +157,7 @@ function drawBubbles() {
       var maxAmount = d3.max(data, function(d) {
          return +d.distance;
       });
-      radiusScale.domain([0, maxAmount]);
+      radiusScale.domain([0, maxAmount * 2]);
 
       // create a new SVG definition for each athlete
       defs.selectAll(".athlete-pattern")
