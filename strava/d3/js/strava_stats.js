@@ -157,7 +157,7 @@ function drawBubbles() {
       var maxAmount = d3.max(data, function(d) {
          return +d.distance;
       });
-      radiusScale.domain([0, maxAmount * 1.25]);
+      radiusScale.domain([0, maxAmount * 1.5]);
 
       // create a new SVG definition for each athlete
       defs.selectAll(".athlete-pattern")
