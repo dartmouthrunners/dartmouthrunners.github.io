@@ -44,10 +44,6 @@ function drawCircle() {
       var filter = defs.append('filter')
          .attr('id', 'blur');
 
-      filter.append('feGaussianBlur')
-         .attr('in', 'SourceGraphic')
-         .attr('stdDeviation', '4');
-
       var g = svg.append('g')
          .attr('class', 'everest')
          .attr('transform', 'translate(' + boxSize / 2 + ',' + boxSize / 2 + ')');
