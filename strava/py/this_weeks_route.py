@@ -7,11 +7,11 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 12094281
+ROUTE_ID = 12262270
 
-DESCRIPTION = "Happy International Women’s Day!<br />Tonight we salute all you female identifying folks who are crushing kms and the patriarchy.<br />We’re all better for it. Who runs the world? Girls.<br />#PressforProgress #IWD2018"
+DESCRIPTION = "We've survived another round of March's winter Nor-easters!<br />So let's run together!<br />ITS A GOOD OLE FASHION DARTMOUTH RUNNERS THURSDAY.<br />We take on the Oat Hill and Penhorn Lake neighbourhoods,<br />with a gracious downhill on Portland to end it all.<br />See you all soon!"
 
-RUN_DATE = "March 8, 2018"
+RUN_DATE = "March 15, 2018"
 # ===================================================== #
 
 ## Imports
