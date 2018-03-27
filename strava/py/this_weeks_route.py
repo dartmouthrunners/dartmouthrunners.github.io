@@ -9,9 +9,9 @@ Date: 2018-02-20
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 ROUTE_ID = 12284175
 
-DESCRIPTION = "It's been months since we've run southward, but now that the daylight is back,<br />it is finally time to make a sally against Woodside.<br />We sneak along Pleasant until we make it to the NSCC,<br />then cut down oceanside and head back to DT Dartmouth via the Waterfront trail. <br /> Are you ready? Meet at the Gazebo at 1830hr.<br />Over and out."
+DESCRIPTION = "We are going to try this again!<br />Woodside, you better watch out....unless another Nor'easter hits,<br />then your fine for another week. 6:30 start time!<br />Let's do this!"
 
-RUN_DATE = "March 22, 2018"
+RUN_DATE = "March 29, 2018"
 # ===================================================== #
 
 ## Imports
