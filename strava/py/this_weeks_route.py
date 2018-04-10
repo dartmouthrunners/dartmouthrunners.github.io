@@ -7,11 +7,11 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 12514044
+ROUTE_ID = 12583768
 
-DESCRIPTION = "It’s time for a Dartmouth Runners Social!<br />Let’s celebrate April with a run and beer at Celtic Corner.<br />We will run ~6km around the Dartmouth Waterfront and with a quick view of the Tuft’s Cove smoke stacks<br />Bring running shoes, your ID and a smile!<br />See you Thursday at 6:30pm SHARP! Remember, we meet at the Sullivans Pond Gazebo."
+DESCRIPTION = "Even though there is snow on the ground doesn't mean<br />there isn't potential for short and t-shirt weather this Thursday.<br />My weather prediction: SUNNY WITH A CHANCE OF KILOMETRES!<br />Gazebo. 6:30pm. Be there!"
 
-RUN_DATE = "April 5, 2018"
+RUN_DATE = "April 12, 2018" 
 # ===================================================== #
 
 ## Imports
