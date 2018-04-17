@@ -7,11 +7,11 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 12583768
+ROUTE_ID = 12738326
 
-DESCRIPTION = "Even though there is snow on the ground doesn't mean<br />there isn't potential for short and t-shirt weather this Thursday.<br />My weather prediction: SUNNY WITH A CHANCE OF KILOMETRES!<br />Gazebo. 6:30pm. Be there!"
+DESCRIPTION = "Oh Baby! Who wants some Maple Climbing in their life.<br />Let's get the elevation done early before we settle in to some Albro Lake beauty!<br />We run Dartmouth for another Thursday.<br />See you at the Gazebo (6:30pm)!"
 
-RUN_DATE = "April 12, 2018" 
+RUN_DATE = "April 19, 2018" 
 # ===================================================== #
 
 ## Imports
