@@ -7,11 +7,11 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 12738326
+ROUTE_ID = 12832614
 
-DESCRIPTION = "Oh Baby! Who wants some Maple Climbing in their life.<br />Let's get the elevation done early before we settle in to some Albro Lake beauty!<br />We run Dartmouth for another Thursday.<br />See you at the Gazebo (6:30pm)!"
+DESCRIPTION = "If April showers brings May flowers, we are in for a bloom-filled May!<br />Let's say #cul8r to April (and all its gosh darn rain)!<br />Are you ready to tackle the classic Banook Lake Loop?<br />#crewcruise"
 
-RUN_DATE = "April 19, 2018" 
+RUN_DATE = "April 26, 2018" 
 # ===================================================== #
 
 ## Imports
