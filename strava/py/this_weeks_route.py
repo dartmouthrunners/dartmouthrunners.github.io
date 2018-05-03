@@ -7,11 +7,11 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 12832614
+ROUTE_ID = 12992380
 
-DESCRIPTION = "If April showers brings May flowers, we are in for a bloom-filled May!<br />Let's say #cul8r to April (and all its gosh darn rain)!<br />Are you ready to tackle the classic Banook Lake Loop?<br />#crewcruise"
+DESCRIPTION = "May the month of May bring maybirds, mayflowers and mayonnaise!<br />We celebrate the month of may and our Dartmouth Run Club<br />with a 6KM and some drinks! Bring your friends as we cruize around Banook<br />ending right into the cozy Celtic Corner seats!<br />All are welcome! Meet at the #SPG for #DRSN"
 
-RUN_DATE = "April 26, 2018" 
+RUN_DATE = "May 3, 2018" 
 # ===================================================== #
 
 ## Imports
