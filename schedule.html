@@ -4,7 +4,7 @@
 <head>
 	<title>Dartmouth Runners</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="Dartmouth Runners: Running around lakes, trying to avoid hills.">
+	<meta name="description" content="Dartmouth Runners">
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -47,7 +47,7 @@
                     }
                     // Condidions to do this only on links to your own app
                     // if you want all links, use if('href' in curnode) instead.
-                    if('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) ) {
+                    if('href' in curnode && ( curnode.href.indexOf('https') || ~curnode.href.indexOf(location.host) ) ) {
                         e.preventDefault();
                         location.href = curnode.href;
                     }
