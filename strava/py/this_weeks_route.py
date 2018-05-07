@@ -7,11 +7,11 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 12992380
+ROUTE_ID = 13095438
 
-DESCRIPTION = "May the month of May bring maybirds, mayflowers and mayonnaise!<br />We celebrate the month of may and our Dartmouth Run Club<br />with a 6KM and some drinks! Bring your friends as we cruize around Banook<br />ending right into the cozy Celtic Corner seats!<br />All are welcome! Meet at the #SPG for #DRSN"
+DESCRIPTION = "Spring is currently sprunging!<br />Let's explore some of Darmouth's most famous blooming areas.<br />Tulip Street and Park Ave. are on the docket this Thursday.<br />Will the tulips be tuliped? Will the cherries be blossoming.<br />Find out......Thursday at 6:30pm.<br />Meet at the SPG at 6:30pm."
 
-RUN_DATE = "May 3, 2018" 
+RUN_DATE = "May 10, 2018" 
 # ===================================================== #
 
 ## Imports
