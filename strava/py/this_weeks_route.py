@@ -7,11 +7,11 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 13095438
+ROUTE_ID = 13264134
 
-DESCRIPTION = "Spring is currently sprunging!<br />Let's explore some of Darmouth's most famous blooming areas.<br />Tulip Street and Park Ave. are on the docket this Thursday.<br />Will the tulips be tuliped? Will the cherries be blossoming.<br />Find out......Thursday at 6:30pm.<br />Meet at the SPG at 6:30pm."
+DESCRIPTION = "Shakeout the pre-Bluenose jitters with DRA!<br />We leave the Sullivans Pond Gazebo at 6:30pm for the Dartmouth Waterfront Trail <br />We look forward to seeing you there!"
 
-RUN_DATE = "May 10, 2018" 
+RUN_DATE = "May 17, 2018" 
 # ===================================================== #
 
 ## Imports
