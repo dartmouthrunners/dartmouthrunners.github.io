@@ -7,14 +7,14 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 13264134
+ROUTE_ID = 13380716
 
-DESCRIPTION = "Shakeout the pre-Bluenose jitters with DRA!<br />We leave the Sullivans Pond Gazebo at 6:30pm for the Dartmouth Waterfront Trail <br />We look forward to seeing you there!"
+DESCRIPTION = "This run goes out to all the runners and cheerers<br />who battled the elements and distances to partake in the Bluenose!<br />DRA was well represented and we run to celebrate!<br />As alway we meet at the SPG at 6:30pm for running, chatting and FUN!"
 
-RUN_DATE = "May 17, 2018" 
-# ===================================================== #
+RUN_DATE = "May 24, 2018" 
+# ===================================================== #  
 
-## Imports
+ ## Imports
 import json
 import requests
 
