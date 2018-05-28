@@ -7,11 +7,11 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 13380716
+ROUTE_ID = 13484005
 
-DESCRIPTION = "This run goes out to all the runners and cheerers<br />who battled the elements and distances to partake in the Bluenose!<br />DRA was well represented and we run to celebrate!<br />As alway we meet at the SPG at 6:30pm for running, chatting and FUN!"
+DESCRIPTION = "We end May with Drill Night!<br />This Thursday we get a mixture of distance and strength.<br />A 6km run, plus a set of exercise every 1KM<br />As alway we meet at the SPG at 6:30pm!"
 
-RUN_DATE = "May 24, 2018" 
+RUN_DATE = "May 31, 2018" 
 # ===================================================== #  
 
  ## Imports
