@@ -7,11 +7,11 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 13484005
+ROUTE_ID = 13636712
 
-DESCRIPTION = "We end May with Drill Night!<br />This Thursday we get a mixture of distance and strength.<br />A 6km run, plus a set of exercise every 1KM<br />As alway we meet at the SPG at 6:30pm!"
+DESCRIPTION = "Hey June, you are so rad.<br />Take a hard run, and make it easy.<br />Remember to let DRA into your heart.<br />Then you can start, to make runs easy.<br /><br />IT'S SOCIAL NIGHT.<br />June will be celebrated with a run then a beer<br /> We head to Celtic Corner post run for our monthly social<br />As alway we meet at the SPG at 6:30pm!"
 
-RUN_DATE = "May 31, 2018" 
+RUN_DATE = "June 7, 2018" 
 # ===================================================== #  
 
  ## Imports
