@@ -7,11 +7,11 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 13636712
+ROUTE_ID = 13761820
 
-DESCRIPTION = "Hey June, you are so rad.<br />Take a hard run, and make it easy.<br />Remember to let DRA into your heart.<br />Then you can start, to make runs easy.<br /><br />IT'S SOCIAL NIGHT.<br />June will be celebrated with a run then a beer<br /> We head to Celtic Corner post run for our monthly social<br />As alway we meet at the SPG at 6:30pm!"
+DESCRIPTION = "It's DRA Night<br />Just a normal old run night, where we take on the Dartmouth Waterfront Trail.<br /> But, first we head out Pleasant street to the NSCC!<br />As always we meet at the SPG at 6:30pm!"
 
-RUN_DATE = "June 7, 2018" 
+RUN_DATE = "June 14, 2018" 
 # ===================================================== #  
 
  ## Imports
