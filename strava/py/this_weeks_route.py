@@ -7,11 +7,11 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 13863198
+ROUTE_ID = 14003688
 
-DESCRIPTION = "At DRA, running's our name and avoiding hills is our game.<br /> But, not this week people. NOT THIS WEEK!<br /> This Thursday we take on Maple Street! It's a right of passage for all DRAers.<br />We meet at the SPG at 6:30pm!<br />BE READY!"
+DESCRIPTION = "When a birthday falls on a DRA night, we run THE CAKE!<br />But...since this is also a DRILLZ'n'SKILLZ night, let's sprint the candles!<br /> This Thursday join us in saying 'Happy Birthday' to Mark!!!<br />We meet at the SPG at 6:30pm!<br />Bring your party hats!"
 
-RUN_DATE = "June 21, 2018" 
+RUN_DATE = "June 27, 2018" 
 # ===================================================== #  
 
  ## Imports
