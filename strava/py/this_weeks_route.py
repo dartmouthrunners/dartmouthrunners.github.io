@@ -7,11 +7,12 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 14003688
+ROUTE_ID = 14127423
 
-DESCRIPTION = "When a birthday falls on a DRA night, we run THE CAKE!<br />But...since this is also a DRILLZ'n'SKILLZ night, let's sprint the candles!<br /> This Thursday join us in saying 'Happy Birthday' to Mark!!!<br />We meet at the SPG at 6:30pm!<br />Bring your party hats!"
+DESCRIPTION = "It's DRA SOCIAL NIGHT!!!<br /> You know what that means ... we run 6KM straight into the arms of a nice cold beverage! <br /> So, this Thursday strap on your running shoes and your social caps to celebrate another month of DRA!<br />We meet at the SPG at 6:30pm!"
 
-RUN_DATE = "June 27, 2018" 
+
+RUN_DATE = "July 5, 2018" 
 # ===================================================== #  
 
  ## Imports
