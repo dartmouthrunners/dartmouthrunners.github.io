@@ -7,12 +7,12 @@ Date: 2018-02-20
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
-ROUTE_ID = 14127423
+ROUTE_ID = 13761820
 
-DESCRIPTION = "It's DRA SOCIAL NIGHT!!!<br /> You know what that means ... we run 6KM straight into the arms of a nice cold beverage! <br /> So, this Thursday strap on your running shoes and your social caps to celebrate another month of DRA!<br />We meet at the SPG at 6:30pm!"
+DESCRIPTION = "Thursday's are for Dartmouth. Thursday's are for running!<br />We meet at the Sullivan's Pond Gazebo at 6:30pm for a Pleasant 6km route up that will take us along the Dartmouth Cove trail for a great view of Halifax!"
 
 
-RUN_DATE = "July 5, 2018" 
+RUN_DATE = "July 12, 2018" 
 # ===================================================== #  
 
  ## Imports
