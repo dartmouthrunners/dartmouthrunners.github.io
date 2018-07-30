@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 13484005
+ROUTE_ID = 13636712
 
-DESCRIPTION = "It's Drill Night for the Dartmouth Runners <br /> That means we run 1km and do a set of exercises!<br />So get those guns warmed up, because DRA is pumping<br />We meet at the SPG at 6:30pm every Thursday!"
+DESCRIPTION = "ITS SOCIAL NIGHT!! <br /> This one is special, as we check out our new local watering hole... LAKE CITY CIDER!<br /> That means... we run Lake City, then sip Lake City!<br />We meet at the SPG at 6:30pm every Thursday!"
 
-RUN_DATE = "July 26, 2018" 
+RUN_DATE = "August 2, 2018" 
 
 # ===================================================== #  
 
