@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 13636712
+ROUTE_ID = 14801394
 
-DESCRIPTION = "ITS SOCIAL NIGHT!! <br /> This one is special, as we check out our new local watering hole... LAKE CITY CIDER!<br /> That means... we run Lake City, then sip Lake City!<br />We meet at the SPG at 6:30pm every Thursday!"
+DESCRIPTION = "Let's get the crew together for a Dartmouth Run!<br /> The Dartmouth views are on display this week as we head back to the waterfront trail <br />So tie those shoes up tight and hope for a ocean breeze to cut the heat<br />We meet at the SPG at 6:30pm every Thursday!"
 
-RUN_DATE = "August 2, 2018" 
+RUN_DATE = "August 9, 2018" 
 
 # ===================================================== #  
 
