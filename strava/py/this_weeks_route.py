@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14801394
+ROUTE_ID = 14936214
 
-DESCRIPTION = "Let's get the crew together for a Dartmouth Run!<br /> The Dartmouth views are on display this week as we head back to the waterfront trail <br />So tie those shoes up tight and hope for a ocean breeze to cut the heat<br />We meet at the SPG at 6:30pm every Thursday!"
+DESCRIPTION = "This week we'll tackle a bit of Strava art as we make around Dartmouth! <br />As always, we meet at the Sullivan's Pond Gazebo at 6:30pm."
 
-RUN_DATE = "August 9, 2018" 
+RUN_DATE = "August 16, 2018" 
 
 # ===================================================== #  
 
