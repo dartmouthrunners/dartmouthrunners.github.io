@@ -393,27 +393,30 @@ ul {
 	position: relative;
 	width: 60%;
 	padding-top: 60%;
-	margin-right: auto;
-	margin-left: auto;
-	padding-bottom: 25px;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 25px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	overflow: hidden;
  }
- .carousel{
-	position: absolute;
-	padding-top: 25px;
-	top: 0;
+ .carousel {
+	 padding-top: 25px;
+	 position: absolute;
+	 top: 0;
  }
 
  .contact-info .section-title {
- 	margin-bottom: 40px;
+ 	margin-bottom: 25px;
  }
  .contact-info h3 {
  	font-weight: 400;
  	color: #343E5A;
- 	margin-bottom: 20px;
  }
 
 .social-icons{
-	padding-top: 25px;
+	padding-top: 1em;
+	padding-bottom: 25px;
 	float: left;
 }
  .social-icons ul {
@@ -475,8 +478,8 @@ ul {
 	  position: relative;
 	  width: 50%;
 	  padding-top: 50%;
-	  margin-right: auto;
-	  margin-left: auto;
+	  margin-right: 25%;
+	  margin-left: 25%;
 	  margin-top: 10px;
 	  margin-bottom: 25px;
 	  z-index: 5;
@@ -548,8 +551,8 @@ ul {
 	  position: relative;
 	  width: 100%;
 	  padding-top: 100%;
-	  margin-right: auto;
-	  margin-left: auto;
+	  margin-right: 0%;
+	  margin-left: 0%;
 	  margin-top: 10px;
 	  margin-bottom: 25px;
 	  z-index: 5;
