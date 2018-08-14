@@ -10,7 +10,7 @@ Date: 2018-02-20
 
 ROUTE_ID = 14936214
 
-DESCRIPTION = "This week we'll tackle a bit of Strava art as we make around Dartmouth! <br />As always, we meet at the Sullivan's Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we'll tackle a bit of Strava art as we make our way around Dartmouth! <br />As always, we meet at the Sullivan's Pond Gazebo at 6:30pm."
 
 RUN_DATE = "August 16, 2018" 
 
