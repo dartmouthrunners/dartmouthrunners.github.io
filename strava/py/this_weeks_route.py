@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936214
+ROUTE_ID = 14936198
 
-DESCRIPTION = "This week we'll tackle a bit of Strava art as we make our way around Dartmouth! <br />As always, we meet at the Sullivan's Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we climb up Maple and then make our way to Albro Lake Rd via Slayter. Once we reach the end of Albro Lake, we'll loop back via Micmac Blvd and then Crichton Ave. <br />As always, we meet at the Sullivan's Pond Gazebo at 6:30pm."
 
-RUN_DATE = "August 16, 2018" 
+RUN_DATE = "September 13, 2018" 
 
 # ===================================================== #  
 
