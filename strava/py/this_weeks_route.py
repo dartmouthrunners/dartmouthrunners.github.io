@@ -8,13 +8,13 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936198
+ROUTE_ID = 15050887
 
-DESCRIPTION = "This week we climb up Maple and then make our way to Albro Lake Rd via Slayter. Once we reach the end of Albro Lake, we'll loop back via Micmac Blvd and then Crichton Ave. <br />As always, we meet at the Sullivan's Pond Gazebo at 6:30pm."
+DESCRIPTION = "Back by request: <br />This week we will head to smoke stacks via Wyse Rd, turn around once we hit Albro Lake Rd, and then head back via Windmill and Ochterloney <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "September 13, 2018" 
+RUN_DATE = "September 27, 2018"
 
-# ===================================================== #  
+# ===================================================== #
 
  ## Imports
 import json
