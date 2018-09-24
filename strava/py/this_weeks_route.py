@@ -10,7 +10,7 @@ Date: 2018-02-20
 
 ROUTE_ID = 15050887
 
-DESCRIPTION = "Back by request: <br />This week we will head to smoke stacks via Wyse Rd, turn around once we hit Albro Lake Rd, and then head back via Windmill and Ochterloney <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "Back by request: <br />This week we will head to the smoke stacks via Wyse Rd, turn around once we hit Albro Lake Rd, and then head back via Windmill and then Ochterloney. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
 RUN_DATE = "September 27, 2018"
 
