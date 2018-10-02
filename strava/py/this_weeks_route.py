@@ -8,24 +8,20 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 15050887
+ROUTE_ID = 14936120
 
-DESCRIPTION = "Back by request: <br />This week we will head to the smoke stacks via Wyse Rd, turn around once we hit Albro Lake Rd, and then head back via Windmill and then Ochterloney. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "It's social night!<br />This week we'll run a classic route around Lake Banook and end at Lake City Cider/Brightwood Brewery on Portland Street for a post run cider/beer! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "September 27, 2018"
+RUN_DATE = "October 4, 2018"
 
 # ===================================================== #
 
- ## Imports
 import json
 import requests
 
-## Read the Strava API token from file
 with open('strava/auth_token', 'r') as f:
     API_TOKEN = f.readline().rstrip()
 
-## Request the most recent 300 activities (3 pages, 100 per page)
-# Define the header
 header = {'Authorization': 'Bearer ' + API_TOKEN}
 request_uri = 'https://www.strava.com/api/v3/routes/' + str(ROUTE_ID)
 response = requests.get(request_uri, headers=header)
