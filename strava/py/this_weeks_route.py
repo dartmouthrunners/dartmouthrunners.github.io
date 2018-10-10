@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936120
+ROUTE_ID = 15809780
 
-DESCRIPTION = "It's social night!<br />This week we'll run a classic route around Lake Banook and end at Lake City Cider/Brightwood Brewery on Portland Street for a post run cider/beer! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we're trying out a new route! We'll head up Prince Albert along Lake Banook and then make our way onto Main Street. From there we will take a left onto Major Street and do a quick tour around Westphal before making our way back to th SPG <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "October 4, 2018"
+RUN_DATE = "October 11, 2018"
 
 # ===================================================== #
 
