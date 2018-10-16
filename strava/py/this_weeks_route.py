@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 15809780
+ROUTE_ID = 15125434
 
-DESCRIPTION = "This week we're trying out a new route! We'll head up Prince Albert along Lake Banook and then make our way onto Main Street. From there we will take a left onto Major Street and do a quick tour around Westphal before making our way back to th SPG <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we'll take Tulip Street to the Dartmouth Common, do a lap of the baseball field, and then head towards the Dartmouth Cove trail. We will make our way back via Newcastle, Albert, and Hawthorne. Once we get to the pond there will be an optional lap to bring us to 6km or you can call it at 5km! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "October 11, 2018"
+RUN_DATE = "October 18, 2018"
 
 # ===================================================== #
 
