@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 15125434
+ROUTE_ID = 14936110
 
-DESCRIPTION = "This week we'll take Tulip Street to the Dartmouth Common, do a lap of the baseball field, and then head towards the Dartmouth Cove trail. We will make our way back via Newcastle, Albert, and Hawthorne. Once we get to the pond there will be an optional lap to bring us to 6km or you can call it at 5km! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will take the Dartmouth Cove route in reverse. That means we'll head down Ochterloney and Alderney in order to make our way to the trail. We will take the trail all the way to the NSCC Ivany campus and then make our way back home via Pleasant St. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "October 18, 2018"
+RUN_DATE = "October 25, 2018"
 
 # ===================================================== #
 
