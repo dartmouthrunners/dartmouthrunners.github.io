@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936110
+ROUTE_ID = 14936120 
 
-DESCRIPTION = "This week we will take the Dartmouth Cove route in reverse. That means we'll head down Ochterloney and Alderney in order to make our way to the trail. We will take the trail all the way to the NSCC Ivany campus and then make our way back home via Pleasant St. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "It's Social Night! <br />As usual, we'll run the classic route around Lake Banook before making our way to Lake City/Brightwood for a post-run beverage. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "October 25, 2018"
+RUN_DATE = "November 1, 2018"
 
 # ===================================================== #
 
