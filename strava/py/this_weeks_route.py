@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936120 
+ROUTE_ID = 15809780
 
-DESCRIPTION = "It's Social Night! <br />As usual, we'll run the classic route around Lake Banook before making our way to Lake City/Brightwood for a post-run beverage. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will run over the Circ and make our way in to Westphal. We ran this route a few weeks back but some awful weather led to a small turnout, so let's try it again! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "November 1, 2018"
+RUN_DATE = "November 8, 2018"
 
 # ===================================================== #
 
