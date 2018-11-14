@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 15809780
+ROUTE_ID = 15285960
 
-DESCRIPTION = "This week we will run over the Circ and make our way in to Westphal. We ran this route a few weeks back but some awful weather led to a small turnout, so let's try it again! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will stick to a personal favourite of mine (Mark). First we will leave the pond and head along the Lake Banook trail towards Mic Mac Mall (up Prince Albert). We will turn around once we hit Micmac Blvd and head back the same way we came. <br />Heads up! There is a bit of a dark path on this one, so wear a headlamp if you have one, and now that the sun is setting early, make sure to wear your bright clothes! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "November 8, 2018"
+RUN_DATE = "November 15, 2018"
 
 # ===================================================== #
 
