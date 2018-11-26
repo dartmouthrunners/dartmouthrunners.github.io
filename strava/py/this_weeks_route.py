@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 16257888
+ROUTE_ID = 15050887
 
-DESCRIPTION = "This week we will engage those glutes and climb Penhorn Drive as we make our way past four different lakes! <br />Our route this week will take us around the suburbs of Dartmouth so it should be reasonably well lit, however, now that the sun is setting early, make sure to wear your bright clothes! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will head towards the Smoke Stacks by way of Wyse Rd and then make our return via Windmill. Check out the full route on Strava! <br />Now that the sun is setting early, make sure to wear your bright clothes! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "November 22, 2018"
+RUN_DATE = "November 29, 2018"
 
 # ===================================================== #
 
