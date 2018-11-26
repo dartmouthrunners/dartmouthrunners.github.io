@@ -10,7 +10,7 @@ Date: 2018-02-20
 
 ROUTE_ID = 15050887
 
-DESCRIPTION = "This week we will head towards the Smoke Stacks by way of Wyse Rd and then make our return via Windmill. Check out the full route on Strava! <br />Now that the sun is setting early, make sure to wear your bright clothes! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will head towards the Smoke Stacks by way of Wyse Rd and then make our return via Windmill. <br />Now that the sun is setting early, make sure to wear your bright clothes! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
 RUN_DATE = "November 29, 2018"
 
