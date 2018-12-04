@@ -10,7 +10,7 @@ Date: 2018-02-20
 
 ROUTE_ID = 14936120
 
-DESCRIPTION = "It's social night! Join us for our usual lap around Banook before we make our way to Lake City/Brightwood Brewery for a post run drink. <br />PS: Now that the sun is setting early, make sure to wear your bright clothes! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "It's social night! <br/>Join us for our usual lap around Banook before we make our way to Lake City/Brightwood Brewery for a post run drink. <br />PS: Now that the sun is setting early, make sure to wear your bright clothes! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
 RUN_DATE = "December 6, 2018"
 
