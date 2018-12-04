@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 15050887
+ROUTE_ID = 14936120
 
-DESCRIPTION = "This week we will head towards the Smoke Stacks by way of Wyse Rd and then make our return via Windmill. <br />Now that the sun is setting early, make sure to wear your bright clothes! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "It's social night! Join us for our usual lap around Banook before we make our way to Lake City/Brightwood Brewery for a post run drink. <br />PS: Now that the sun is setting early, make sure to wear your bright clothes! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "November 29, 2018"
+RUN_DATE = "December 6, 2018"
 
 # ===================================================== #
 
