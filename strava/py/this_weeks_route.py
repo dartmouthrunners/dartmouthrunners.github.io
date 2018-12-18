@@ -10,7 +10,7 @@ Date: 2018-02-20
 
 ROUTE_ID = 14936120
 
-DESCRIPTION = "Our next crew run will take place in the New Year! <br />And since it is the first Thursday of January, that means it is social night! <br />Join us as we run our usual social night route around Banook ending at Lake City/Brightwood Brewery for a post run drink. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "Our next crew run will take place in the New Year, and that means it's social night! <br />Join us as we run our usual social night route around Banook ending at Lake City/Brightwood Brewery for a post run drink. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
 RUN_DATE = "January 3, 2019"
 
