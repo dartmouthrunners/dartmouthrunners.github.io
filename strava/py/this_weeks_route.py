@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 16257892
+ROUTE_ID = 14936120
 
-DESCRIPTION = "Sport your ugly Christmas sweater, your festive cheer, and join us this week as we run our Reindeer Route!<br /> After the run, stick around for a little bit (if you have time) for some hot chocolate. <br />PS: Now that the sun is setting early, make sure to wear your bright clothes, or sport a headlamp/other lights! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "Our next crew run will take place in the New Year! <br />And since it is the first Thursday of January, that means it is social night! <br />Join us as we run our usual social night route around Banook ending at Lake City/Brightwood Brewery for a post run drink. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "December 13, 2018"
+RUN_DATE = "January 3, 2019"
 
 # ===================================================== #
 
