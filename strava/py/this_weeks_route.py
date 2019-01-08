@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936120
+ROUTE_ID = 15809780
 
-DESCRIPTION = "Our next crew run will take place in the New Year, and that means it's social night! <br />Join us as we run our usual social night route around Banook ending at Lake City/Brightwood Brewery. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "Hey crew! Join us this week as we head over the Circ, smell the smells of the Swiss Chalet on Main and head back via Waverly Road. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "January 3, 2019"
+RUN_DATE = "January 10, 2019"
 
 # ===================================================== #
 
