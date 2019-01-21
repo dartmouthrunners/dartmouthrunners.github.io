@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 16798191
+ROUTE_ID = 15050887
 
-DESCRIPTION = "This week we're going to try out a new route! <br />We will start off pretty easy to warm up as we make our way from Sullivan's Pond to Portland and then back up Ochterloney. Once we hit Victoria Rd we'll start to engage those butt muscles by climbing Victoria, then Thistle, and finally Forest Road. <br />Once we've hit the summit, we'll make our way back to the pond via Lyngby and Crichton. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will run a reasonably flat route to make up for last week ;). <br/>First, we will make our way to Wyse Rd through the Common. Once we hit Tufts Cove, we will turn back and make our way home via Windmill Rd and Ochterloney. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "January 17, 2019"
+RUN_DATE = "January 24, 2019"
 
 # ===================================================== #
 
