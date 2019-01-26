@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 15050887
+ROUTE_ID = 16915657
 
-DESCRIPTION = "This week we will run a reasonably flat route to make up for last week ;). <br/>First, we will make our way to Wyse Rd through the Common. Once we hit Tufts Cove, we will turn back and make our way home via Windmill Rd and Ochterloney. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will try another new route that is sure to be a leg burner. <br />We will make our way up the lake and then start climbing Celtic Dr. It is one of those hills that just when you think you've hit the top, there is a little bit left! Then we'll coast back down via Portland Street, all the way to Ochterloney and back to the Gazebo.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "January 24, 2019"
+RUN_DATE = "January 31, 2019"
 
 # ===================================================== #
 
