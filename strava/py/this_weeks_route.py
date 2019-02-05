@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 16915657
+ROUTE_ID = 14936120
 
-DESCRIPTION = "This week we will try another new route that is sure to be a leg burner. <br />We will make our way up the lake and then start climbing Celtic Dr. It is one of those hills that just when you think you've hit the top, there is a little bit left! Then we'll coast back down via Portland Street, all the way to Ochterloney and back to the Gazebo.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "It's Social Night! <br>Join us as we tackle our regular social night route around Lake Banook and then make our way to Brightwood Brewery. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "January 31, 2019"
+RUN_DATE = "February 7, 2019"
 
 # ===================================================== #
 
