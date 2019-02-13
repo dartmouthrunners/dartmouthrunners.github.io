@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936120
+ROUTE_ID = 17126168
 
-DESCRIPTION = "It's Social Night! <br>Join us as we tackle our regular social night route around Lake Banook and then make our way to Brightwood Brewery. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "Happy Valentine's Day! <br />This week we'll once again attempt to make some crappy Strava art as we run a heart-shaped loop into Crighton Park and around Lake Banook. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "February 7, 2019"
+RUN_DATE = "February 14, 2019"
 
 # ===================================================== #
 
