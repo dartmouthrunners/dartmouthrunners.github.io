@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 17126168
+ROUTE_ID = 14936110
 
-DESCRIPTION = "Happy Valentine's Day! <br />This week we'll once again attempt to make some crappy Strava art as we run a heart-shaped loop into Crighton Park and around Lake Banook. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we are going to try and run a route that we usually only do in the summer months for lighting purposes. But hopefully the expected snowfall and almost full moon will brighten up the trail. <br /> If possible, bring a headlamp for this one and be prepared to go slow as we run through the snow! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "February 14, 2019"
+RUN_DATE = "February 21, 2019"
 
 # ===================================================== #
 
