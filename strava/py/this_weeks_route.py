@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936110
+ROUTE_ID = 14936198
 
-DESCRIPTION = "This week we are going to try and run a route that we usually only do in the summer months for lighting purposes. But hopefully the expected snowfall and almost full moon will brighten up the trail. <br /> If possible, bring a headlamp for this one and be prepared to go slow as we run through the snow! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will run an older route that we haven't done in a while! <br />First we will make the climb up Maple and head all the way down Slayter until we hit Albro Lake Rd. From there we will make our way to Lancaster, then Mic Mac Blvd, and finally back to the gazebo via Crichton Ave. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "February 21, 2019"
+RUN_DATE = "February 28, 2019"
 
 # ===================================================== #
 
