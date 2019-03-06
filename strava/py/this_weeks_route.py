@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936198
+ROUTE_ID = 14936120
 
-DESCRIPTION = "This week we will run an older route that we haven't done in a while! <br />First we will make the climb up Maple and head all the way down Slayter until we hit Albro Lake Rd. From there we will make our way to Lancaster, then Mic Mac Blvd, and finally back to the gazebo via Crichton Ave. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "It's social night! This week we'll run the usual social night route around Lake Banook and make our way to Brightwood Brewery for an after run beer.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "February 28, 2019"
+RUN_DATE = "March 7, 2019"
 
 # ===================================================== #
 
