@@ -10,7 +10,7 @@ Date: 2018-02-20
 
 ROUTE_ID = 14936120
 
-DESCRIPTION = "It's social night! This week we'll run the usual social night route around Lake Banook and make our way to Brightwood Brewery for an after run beer.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "It's social night!<br />This week we'll run the usual social night route around Lake Banook and make our way to Brightwood Brewery for an after run beer.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
 RUN_DATE = "March 7, 2019"
 
