@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 15050887
+ROUTE_ID = 14936110
 
-DESCRIPTION = "Join us this week for our first run post Daylight Savings and run in the sun!<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "Join us this week for a cruise along the waterfront as we make our way to the Dartmouth Cove trail via Pleasant St.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "March 14, 2019"
+RUN_DATE = "March 21, 2019"
 
 # ===================================================== #
 
