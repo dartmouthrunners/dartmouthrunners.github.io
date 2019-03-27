@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936110
+ROUTE_ID = 14936202
 
-DESCRIPTION = "Join us this week for a cruise along the waterfront as we make our way to the Dartmouth Cove trail via Pleasant St.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will head to the hills and climb Portland St. making our way to Manor Park and then through the trail by Oat Hill Lake. After the lake we will shoot down Lorne Ave to Sinclair and make our way back to the Gazebo via Prine Albert along Lake Banook.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "March 21, 2019"
+RUN_DATE = "March 28, 2019"
 
 # ===================================================== #
 
