@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936202
+ROUTE_ID = 15125434 
 
-DESCRIPTION = "This week we will head to the hills and climb Portland St. making our way to Manor Park and then through the trail by Oat Hill Lake. After the lake we will shoot down Lorne Ave to Sinclair and make our way back to the Gazebo via Prince Albert along Lake Banook.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will make our way to the Dartmouth Common for a loop around the baseball field and then head to the Dartmouth Cove trail. Once there we will run along the waterfront until Old Ferry Rd and then return to the Gazebo via Newcastle., Albert, and Hawthorne Streets<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "March 28, 2019"
+RUN_DATE = "April 11, 2019"
 
 # ===================================================== #
 
