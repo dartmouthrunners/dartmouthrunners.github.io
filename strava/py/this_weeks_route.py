@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 15125434 
+ROUTE_ID = 14936198 
 
-DESCRIPTION = "This week we will make our way to the Dartmouth Common for a loop around the baseball field and then head to the Dartmouth Cove trail. Once there we will run along the waterfront until Old Ferry Rd and then return to the Gazebo via Newcastle., Albert, and Hawthorne Streets<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will run the Albro Lake route in reverse. <br />We will head up Crichton Ave all the way to the mall and then make the winding climb up Micmac Blvd. Once we rearch Woodland Ave, we'll cross the street and continue to Albro Lake Rd via Lancaster and Sea King Drive. Finally, we'll coast down Slayter and Maple back to the Gazebo. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "April 11, 2019"
+RUN_DATE = "April 25, 2019"
 
 # ===================================================== #
 
