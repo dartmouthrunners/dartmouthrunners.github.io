@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936198 
+ROUTE_ID = 14936120 
 
-DESCRIPTION = "This week we will run the Albro Lake route in reverse. <br />We will head up Crichton Ave all the way to the mall and then make the winding climb up Micmac Blvd. Once we rearch Woodland Ave, we'll cross the street and continue to Albro Lake Rd via Lancaster and Sea King Drive. Finally, we'll coast down Slayter and Maple back to the Gazebo. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week is our social night! So join us for a 6km lap around Lake Banook and a post run drink at Lake City Cider/Brightwood Brewery. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "April 25, 2019"
+RUN_DATE = "May 2, 2019"
 
 # ===================================================== #
 
