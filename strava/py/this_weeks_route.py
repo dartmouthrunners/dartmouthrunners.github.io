@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936120 
+ROUTE_ID = 15050887 
 
-DESCRIPTION = "This week is our social night! So join us for a 6km lap around Lake Banook and a post run drink at Lake City Cider/Brightwood Brewery. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we'll hit the 'W' streets by first running down Wyse Rd all the way to the smoke stacks and then back up Windmill. <br />Once we reach the Alderney ferry terminal, we'll head up Octerloney back to the Gazebo. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "May 2, 2019"
+RUN_DATE = "May 9, 2019"
 
 # ===================================================== #
 
