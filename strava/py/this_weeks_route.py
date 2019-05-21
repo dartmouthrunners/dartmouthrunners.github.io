@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936214 
+ROUTE_ID = 15125434 
 
-DESCRIPTION = "This week we will run an old favourite: The Dartmouth Road-runner <em>beep-beep</em>! <br />We will start by making our way up Maple and then head down Slayter until we get to Woodland Ave. We will turn around at Victoria and then make our way back to the gazebo via Thistle and Alderney, with a little detour at Pleasant St to get us onto Hawthorne. <br />It's a complicated one, I know, but the lack-luster Strava Art will be worth it! <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will run through the Dartmouth Common and then make our way to the Dartmouth Cove trail. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "May 16, 2019"
+RUN_DATE = "May 23, 2019"
 
 # ===================================================== #
 
