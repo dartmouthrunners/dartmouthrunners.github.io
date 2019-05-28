@@ -8,9 +8,9 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 15125434 
+ROUTE_ID = 14936198 
 
-DESCRIPTION = "This week we will run through the Dartmouth Common and then make our way to the Dartmouth Cove trail. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will make a big loop around the darkside. <br />First we will head up Maple Street and then all the way down Slayter until Albro Lake Road and then head north towards Lancaster. Once we get to Lancaster Drive, we'll follow it and cross the street and run by Mic Mac Mall via Micmac Blvd. Finally we'll take Crichton Ave and make our way back to the Gazebo. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
 RUN_DATE = "May 23, 2019"
 
