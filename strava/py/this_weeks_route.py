@@ -10,7 +10,7 @@ Date: 2018-02-20
 
 ROUTE_ID = 14936120 
 
-DESCRIPTION = "This week is social night! Join us for a lap around Lake Banook and a post run beverage at Brightwood/Lake City. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week is social night! <br />Join us for a lap around Lake Banook and a post run beverage at Brightwood/Lake City. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
 RUN_DATE = "June 6, 2019"
 
