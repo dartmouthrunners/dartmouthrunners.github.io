@@ -10,9 +10,9 @@ Date: 2018-02-20
 
 ROUTE_ID = 14936120 
 
-DESCRIPTION = "It's Social Night!<br />Join us this week for a lap around Lake Banook and a post run beverage at Brightwood/Lake City.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will try out a new route that takes us to some of the best algae-free swimming spots in Dartmouth. <br />First we will make our way past Lake Banook and start climbing to Penhorn Lake via Harris Road. Once we get to Penhorn, we will cut over to Oat Hill Lake and run through the trail until we reach Lorne Avenue. <br />Finally, we'll make our way back to the gazebo via Sinclair and Hawthorne. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "July 4, 2019"
+RUN_DATE = "August 22, 2019"
 
 # ===================================================== #
 
