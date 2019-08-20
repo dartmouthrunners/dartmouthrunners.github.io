@@ -8,7 +8,7 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936120 
+ROUTE_ID = 21186733 
 
 DESCRIPTION = "This week we will try out a new route that takes us to some of the best algae-free swimming spots in Dartmouth. <br />First we will make our way past Lake Banook and start climbing to Penhorn Lake via Harris Road. Once we get to Penhorn, we will cut over to Oat Hill Lake and run through the trail until we reach Lorne Avenue. <br />Finally, we'll make our way back to the gazebo via Sinclair and Hawthorne. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
