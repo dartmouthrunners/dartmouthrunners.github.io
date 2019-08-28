@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 21186733 
+ROUTE_ID = 14936214 
 
-DESCRIPTION = "This week we will try out a new route that takes us to some of the best algae-free swimming spots in Dartmouth. First we will make our way past Lake Banook and start climbing to Penhorn Lake via Harris Road. Once we get to Penhorn, we will cut over to Oat Hill Lake and run through the trail until we reach Lorne Avenue. Finally, we'll make our way back to the gazebo via Sinclair and Hawthorne. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "Join us this week during the downpour and tackle Maple Street. We'll set off from the Gazebo, immediately go up Maple and then all the way down Slayter until Woodland Ave. We'll loop back via Victoria and then descend Thistle to Alderney and back to the Gazebo via Ochterloney<br/> The forecast is looking pretty torrential this week, so dress accordingly!<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "August 22, 2019"
+RUN_DATE = "August 29, 2019"
 
 # ===================================================== #
 
