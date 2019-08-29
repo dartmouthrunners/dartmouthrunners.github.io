@@ -10,7 +10,7 @@ Date: 2018-02-20
 
 ROUTE_ID = 14936214 
 
-DESCRIPTION = "Join us this week during the downpour and tackle Maple Street. We'll set off from the Gazebo, immediately go up Maple and then all the way down Slayter until Woodland Ave. We'll loop back via Victoria and then descend Thistle to Alderney and back to the Gazebo via Ochterloney<br/> The forecast is looking pretty torrential this week, so dress accordingly!<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "Join us this week during the downpour and tackle Maple Street. We'll set off from the Gazebo, immediately go up Maple and then all the way down Slayter until Woodland Ave. We'll loop back via Victoria and then descend Thistle to Alderney and back to the Gazebo via Portland and Hawthorne.<br/> The forecast is looking pretty torrential this week, so dress accordingly!<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
 RUN_DATE = "August 29, 2019"
 
