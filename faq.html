@@ -221,19 +221,19 @@
 	<script type="text/javascript" src="vendor/instafeed.js/instafeed.min.js"></script>
 	<script type='text/javascript'>
 		var feed = new Instafeed({
-			get: "user",
-			userId: 5689721276,
-			clientId: "076fbeeb432d441f81531393642a692e",
-                        accessToken: "5689721276.076fbee.f5451b187a7d4a9b81efd65a5dbee64f",
-			limit: 4,
-			sortBy: 'most-recent',
-			template: '<div class="item"><a href="{{link}}" target="_blank"><img src="{{image}}" alt="{{caption}}"/></a></div>',
-			resolution: "standard_resolution",
-			after: function() {
-				$('#instafeed > div:nth-child(1)').addClass('active');
-			}
-		});
-		feed.run();
+                        get: "user",
+                        userId: "5689721276",
+                        clientId: "076fbeeb432d441f81531393642a692e",
+                        accessToken: "5689721276.076fbee.e114280d9531430f8286041346253b1c",
+                        limit: 5,
+                        sortBy: 'most-recent',
+                        template: '<div class="item"><a href="{{link}}" target="_blank"><img src="{{image}}" alt="{{caption}}"/></a></div>',
+                        resolution: "standard_resolution",
+                        after: function() {
+                                $('#instafeed > div:nth-child(1)').addClass('active');
+                        }
+                });
+                feed.run();
 	</script>
 
 	<!-- Google Maps -->
