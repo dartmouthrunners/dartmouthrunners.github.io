@@ -10,9 +10,9 @@ Date: 2018-02-20
 
 ROUTE_ID = 14936120 
 
-DESCRIPTION = "It's social night! <br />Join us for a lap around Lake Banook and a post run beverage at the Wooden Monkey beer garden. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "It's social night! <br />Join us for a lap around Lake Banook and a post run beverage at Brightwood Brewery. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "September 5, 2019"
+RUN_DATE = "October 2, 2019"
 
 # ===================================================== #
 
