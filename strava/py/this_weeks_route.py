@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936120 
+ROUTE_ID = 22130914
 
-DESCRIPTION = "It's social night! <br />Join us for a lap around Lake Banook and a post run beverage at Brightwood Brewery. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "On our last run before Thanksgiving we are going for the elevation and running the Turkey Leg route in honour of all turkeys we're going to eat this weekend.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "October 2, 2019"
+RUN_DATE = "October 10, 2019"
 
 # ===================================================== #
 
