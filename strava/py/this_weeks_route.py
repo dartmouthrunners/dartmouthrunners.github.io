@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 22130914
+ROUTE_ID = 15125434
 
-DESCRIPTION = "On our last run before Thanksgiving we are going for the elevation and running the Turkey Leg route in honour of all turkeys we're going to eat this weekend.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will enjoy two of Dartmouth's nicest outdoors spots: the Dartmouth common and the Dartmouth cove waterfront trail.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "October 10, 2019"
+RUN_DATE = "October 17, 2019"
 
 # ===================================================== #
 
