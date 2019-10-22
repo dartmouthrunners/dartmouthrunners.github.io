@@ -10,7 +10,7 @@ Date: 2018-02-20
 
 ROUTE_ID = 22344309
 
-DESCRIPTION = "This week we will run a birthday route for our long-term club member Emma. <br />We love when birthdays fall on Thursday!<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will run a birthday route for one of our first ever DRA crew members Emma. <br />We love when birthdays fall on Thursday!<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
 RUN_DATE = "October 24, 2019"
 
