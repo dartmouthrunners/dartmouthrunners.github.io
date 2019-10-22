@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 15125434
+ROUTE_ID = 22344309
 
-DESCRIPTION = "This week we will enjoy two of Dartmouth's nicest outdoors spots: the Dartmouth common and the Dartmouth cove waterfront trail.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "This week we will run a birthday route for our long-term club member Emma. We love when birthdays fall on Thursday!<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "October 17, 2019"
+RUN_DATE = "October 24, 2019"
 
 # ===================================================== #
 
