@@ -17,12 +17,25 @@ RUN_DATE = "October 31, 2019"
 # ===================================================== #
 
 import json
+import pickle
 import requests
 
-with open('strava/auth_token', 'r') as f:
-    API_TOKEN = f.readline().rstrip()
+# Get a new auth_token each time
+with open('strava/auth_request', 'rb') as f:
+    auth_request = pickle.load(f)
 
-header = {'Authorization': 'Bearer ' + API_TOKEN}
+files = {
+    'client_id': (None, auth_request['client_id']),
+    'client_secret': (None, auth_request['client_secret']),
+    'code': (None, auth_request['code']),
+    'grant_type': (None, 'authorization_code'),
+}
+
+response = requests.post('https://www.strava.com/oauth/token', files=files)
+api_token = json.loads(response.content)['access_token']
+
+# Get the route info from the Strava API
+header = {'Authorization': 'Bearer ' + api_token}
 request_uri = 'https://www.strava.com/api/v3/routes/' + str(ROUTE_ID)
 response = requests.get(request_uri, headers=header)
 
