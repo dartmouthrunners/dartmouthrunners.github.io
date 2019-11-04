@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936110
+ROUTE_ID = 14936120
 
-DESCRIPTION = "Happy Halloween!<br />This week we will run the Dartmouth Cove trail until we get to NSCC and then make our way back via Pleasant Street.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "It's Social Night!<br />Join us for a cruise around Banook Lake and a post-run beer at Brightwood Brewery on Portland Street.<br />Now that it is getting dark out early, don't forget to wear some brightly coloured clothes or light up gear.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "October 31, 2019"
+RUN_DATE = "November 5, 2019"
 
 # ===================================================== #
 
