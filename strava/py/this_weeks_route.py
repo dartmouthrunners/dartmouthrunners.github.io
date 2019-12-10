@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 14936120
+ROUTE_ID = 16798191
 
-DESCRIPTION = "It's Social Night!<br />Join us for a lap around Lake Banook and a post run beverage at Brightwood Brewery!<br />Now that it is getting dark out early, don't forget to wear some brightly coloured clothes or light up gear.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "Let's get those glutes working by climbing a few hills!<br />Now that it is getting dark out early, don't forget to wear some brightly coloured clothes or light up gear.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "December 5, 2019"
+RUN_DATE = "December 12, 2019"
 
 # ===================================================== #
 
