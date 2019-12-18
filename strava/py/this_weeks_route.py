@@ -8,11 +8,11 @@ Date: 2018-02-20
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 16798191
+ROUTE_ID = 16257892
 
-DESCRIPTION = "Let's get those glutes working by climbing a few hills!<br />Now that it is getting dark out early, don't forget to wear some brightly coloured clothes or light up gear.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
+DESCRIPTION = "Happy Holidays!<br />In honour of the season, we will run our reindeer route! Be sure to track this one on Strava &#129420;.<br />Now that it is getting dark out early, don't forget to wear some brightly coloured clothes or light up gear.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "December 12, 2019"
+RUN_DATE = "December 19, 2019"
 
 # ===================================================== #
 
