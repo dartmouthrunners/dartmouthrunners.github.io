@@ -12,7 +12,7 @@ ROUTE_ID = 15809780
 
 DESCRIPTION = "This week we'll take to the streets of Westphal as we make out way down Prince Albert and over the highway.<br />Now that it is getting dark out early, don't forget to wear some brightly coloured clothes or light up gear.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm."
 
-RUN_DATE = "January 9, 2020"
+RUN_DATE = "January 16, 2020"
 
 # ===================================================== #
 
