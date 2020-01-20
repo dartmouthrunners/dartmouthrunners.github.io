@@ -1,9 +1,13 @@
-""" this_weeks_route.py
-Gets the most running route provided the route ID.
+# this_weeks_route.py
+#
+# Gets the most running route provided the route ID.
+#
+# @author: Mark Thomas
+# @date: 2018-02-20
 
-Author: Mark Thomas
-Date: 2018-02-20
-"""
+import sys
+import json
+import requests
 
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
@@ -16,13 +20,10 @@ RUN_DATE = "January 16, 2020"
 
 # ===================================================== #
 
-import json
-import pickle
-import requests
-
-# Read in the auth token
-with open('strava/auth_token', 'rb') as f:
-    auth_token = pickle.load(f)
+# Import the auth_token from the system agruments
+auth_token = sys.argv[0]
+print(auth_token)
+print(type(auth_token))
 
 # Get the route info from the Strava API
 header = {'Authorization': 'Bearer ' + auth_token}
