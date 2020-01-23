@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Dartmouth Runners - Schedule</title>
+	<title>Dartmouth Runners - Special Events</title>
 	<meta charset="UTF-8"/>
 	<meta name="description" content="Dartmouth Runners"/>
 	<meta name="keywords" content=""/>
@@ -31,11 +31,11 @@
 	<meta property="og:image" content="https://dartmouthrunners.com/img/social_meta.jpg"/>
 
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Roboto:300,400,700" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Roboto:300,400,700" rel="stylesheet" crossorigin="anonymous"/>
 
 	<!-- Stylesheets -->
-	<link href="css/bootstrap.min.css" rel="stylesheet"/>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js" crossorigin="anonymous"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
 	<link href="css/style.css" rel="stylesheet"/>
 
 	<!-- JS libraries -->
@@ -72,8 +72,8 @@
 		 <div id="navbar" class="navbar-collapse collapse">
 			<ul class="white-nav nav navbar-nav navbar-right">
 			  <li><a href="index.html#about">About Us</a></li>
-			  <li><a href="#schedule">Schedule</a></li>
-			  <!-- <li><a href="events.html">Events</a></li> -->
+			  <li><a href="schedule.html">Schedule</a></li>
+			  <li><a href="#events">Events</a></li>
 			  <li><a href="faq.html">FAQ</a></li>
 			  <li><a href="#contact">Contact</a></li>
 			</ul>
@@ -81,28 +81,32 @@
 	  </div>
 	</nav>
 
-	<!-- Schedule Section -->
-	<a name="faq"></a>
+	<!-- About Section -->
+	<a name="events"></a>
 	<div class="faq-section spad">
 		<div class="faq-overlay"></div>
 		<div class="container">
 			<div class="section-title dark">
-				<h2>This week's route</h2>
+				<h2>Special Events!</h2>
 			</div>
-			<div class="faq-info" style="padding-top: 25px">
-				<h5 id="route-date"></h5>
-				<h3 id="route-name"></h3>
-				<p id="route-stats"></p>
+
+			<div class="faq-info">
+				<h3>Run and Yoga @ R Studios // Saturday, February 8th</h3>
+				<br />
+				<p>
+					Join us on Feburary 8th @ 1:15PM (SHARP!) for a 6km run followed by some gentle runners yoga with Janna Morrison!
+				</p>
+				<p>
+					<span style="font-weight: bold">Where: </span> Rebel Studio, XXXXX<br />
+					Run at 1:15PM, Yoga at 2:00PM, and beers to follow!
+
+				</p>
+				<h3><a href="#">Sign up here</a></h3>
 			</div>
 			<div class="map-container">
 				<div id="map"></div>
 			</div>
-			<div class="faq-info">
-				<p id="route-description"></p>
-			</div>
-			<div class="faq-info">
-				<h3 id="strava-link" style="padding-top: 15px; padding-bottom: 25px"></h3>
-			</div>
+
 		</div>
 	</div>
 
@@ -136,7 +140,7 @@
 				          </a>
 							</li>
 							<li class="list-unstyled-item">
-								<a href="https://www.strava.com/clubs/dartmouthrunners">
+								<a href="https://www.strava.com/clubs/253520">
 					            <i class="fab fa-strava"></i>
 				          </a>
 							</li>
@@ -177,87 +181,34 @@
                 feed.run();
 	</script>
 
-	<script type="text/javascript">
-		$.getJSON("strava/data/route_details.json", function(data) {
-			// populate the date
-			document.getElementById('route-date').innerHTML = data.date;
-
-			// populate the route name
-			document.getElementById('route-name').innerHTML = data.name;
-
-			// route stats
-			var dist = Math.round(10 * (data.distance/1000)) / 10;
-			var elev = Math.round(data.elevation_gain);
-			document.getElementById('route-stats').innerHTML = dist + 'km ' + '&nbsp;//&nbsp;&nbsp;' + elev + 'm elevation gain';
-
-			// route description
-			document.getElementById('route-description').innerHTML = data.description;
-
-			// strava link
-			document.getElementById('strava-link').innerHTML = 'Check out the route on <a href="https://www.strava.com/routes/' + data.id + '">Strava</a>';
-		})
-	</script>
-
 	<!-- Google Maps -->
-	<script async defer src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyA0mbom3mJfyXx7HjV6ktR59NAf3ITNzoA&callback=initMap">
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0mbom3mJfyXx7HjV6ktR59NAf3ITNzoA&callback=initMap">
 	</script>
 	<script>
 		function initMap() {
-			$.getJSON("strava/data/route_details.json", function(data) {
-
-				var latlng = new google.maps.LatLng(44.673715, -63.563881);
-				var options = {
-					zoom: 12,
-					center: latlng,
-					mapTypeId: google.maps.MapTypeId.ROADMAP,
-					disableDefaultUI: true,
-					navigationControl: false,
-					mapTypeControl: false
-				}
-
-				var map = new google.maps.Map(document.getElementById("map"), options);
-
-				var decodedPath = google.maps.geometry.encoding.decodePath(data.polyline);
-				var decodedLevels = decodeLevels("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
-
-				var polyline = new google.maps.Polyline({
-					path: decodedPath,
-					levels: decodedLevels,
-					strokeColor: "#FF0000",
-					strokeOpacity: 1.0,
-					strokeWeight: 2,
-					map: map
-				});
-
-				var infowindow = new google.maps.InfoWindow({
-					content: 'Sullivans Pond Gazebo'
-				});
-				var marker = new google.maps.Marker({
-					position: latlng,
-					map: map
-				});
-				infowindow.open(map, marker);
-
-				google.maps.Polyline.prototype.getBounds = function() {
-					var bounds = new google.maps.LatLngBounds();
-					this.getPath().forEach(function(e) {
-						bounds.extend(e);
-					});
-					return bounds;
-				}
-
-				map.fitBounds(polyline.getBounds());
+			var uluru = {
+				lat: 44.667016,
+				lng: -63.567162
+			};
+			var map = new google.maps.Map(document.getElementById('map'), {
+				mapTypeControl: false,
+				disableDefaultUI: true,
+				// scrollwheel: false,
+				// navigationControl: false,
+				mapTypeControl: false,
+				// scaleControl: false,
+				// draggable: false,
+				zoom: 16,
+				center: uluru
 			});
-		}
-
-		function decodeLevels(encodedLevelsString) {
-			var decodedLevels = [];
-
-			for (var i = 0; i < encodedLevelsString.length; ++i) {
-				var level = encodedLevelsString.charCodeAt(i) - 63;
-				decodedLevels.push(level);
-			}
-			return decodedLevels;
+			var infowindow = new google.maps.InfoWindow({
+				content: 'Rebel Studio'
+			});
+			var marker = new google.maps.Marker({
+				position: uluru,
+				map: map
+			});
+			infowindow.open(map, marker);
 		}
 	</script>
 </body>
