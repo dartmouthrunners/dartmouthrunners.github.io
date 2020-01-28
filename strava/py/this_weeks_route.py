@@ -11,11 +11,11 @@ import argparse
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 15050887
+ROUTE_ID = 23606495
 
-DESCRIPTION = "This week we run to the Smoke Stacks in reverse via Windmill and then return via Wyse.<br />Now that it is getting dark out early, don't forget to wear some brightly coloured clothes or light up gear.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm." # noqa E501
+DESCRIPTION = "Now that it is getting dark out early, don't forget to wear some brightly coloured clothes or light up gear.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm." # noqa E501
 
-RUN_DATE = "January 23, 2020"
+RUN_DATE = "January 30, 2020"
 
 # ===================================================== #
 
