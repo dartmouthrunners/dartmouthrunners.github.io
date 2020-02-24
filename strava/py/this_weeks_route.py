@@ -11,11 +11,11 @@ import argparse
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 16915657
+ROUTE_ID = 17126168
 
 DESCRIPTION = "Now that it is getting dark out early, don't forget to wear some brightly coloured clothes or light up gear.<br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm." # noqa E501
 
-RUN_DATE = "February 13, 2020"
+RUN_DATE = "February 27, 2020"
 
 # ===================================================== #
 
