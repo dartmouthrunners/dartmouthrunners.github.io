@@ -11,11 +11,11 @@ import argparse
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 21186733
+ROUTE_ID = 17126168
 
-DESCRIPTION = "We will continue our crew runs as usual on Thursay! However, if you are feeling under the weather, experiencing any symptoms of COVID-19, or have recently been travelling, please refrain from joining. <br />As always, we meet at the Sullivans Pond Gazebo at 6:30pm." # noqa E501
+DESCRIPTION = "Due to the ongoing pandemic, we are no longer running as a crew!<br />We at Dartmouth Runners encourage you to wash your hands, stay safe, and stay home as much as possible.<br />See you on the other side of all this! ⚡❤ " # noqa E501
 
-RUN_DATE = "March 19, 2020"
+RUN_DATE = ""
 
 # ===================================================== #
 
