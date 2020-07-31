@@ -54,6 +54,17 @@ ul {
 	padding: 0;
 }
 
+
+/* COVID RULES LIST */
+.covid-rules > ol > li {
+	text-align: left;
+	font-size: 16px;
+	padding-left: 1em;
+	padding-bottom: .5em;
+}
+
+
+
 /*-----------------*/
 /* Helper Elements */
 .fix {
