@@ -13,7 +13,7 @@ import argparse
 
 ROUTE_ID = 17126168
 
-DESCRIPTION = "WE'RE BACK!!!<br />This week we will run our heart-shaped route to celebrate the return of Dartmouth Runners crew nights ⚡❤ .<br />With the ongoing situation that is COVID-19, we have a few additional rules that will be enforced at all crew runs. See below:" # noqa E501
+DESCRIPTION = "WE'RE BACK!!!<br />This week we will run our heart-shaped route to celebrate the return of Dartmouth Runners crew nights ⚡❤ " # noqa E501
 
 RUN_DATE = "August 6, 2020"
 
