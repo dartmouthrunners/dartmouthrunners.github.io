@@ -11,11 +11,11 @@ import argparse
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 17126168
+ROUTE_ID = 15125434
 
-DESCRIPTION = "WE'RE BACK!!!<br />This week we will run our heart-shaped route to celebrate the return of Dartmouth Runners crew nights ⚡❤ " # noqa E501
+DESCRIPTION = "This week we'll hit up the Common and waterfront trail in order to enjoy some of the best sights Dartmouth has to offer! ⚡" # noqa E501
 
-RUN_DATE = "August 6, 2020"
+RUN_DATE = "August 13, 2020"
 
 # ===================================================== #
 
