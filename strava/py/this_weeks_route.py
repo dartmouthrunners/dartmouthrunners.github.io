@@ -11,7 +11,7 @@ import argparse
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 15125434
+ROUTE_ID = 16915657
 
 DESCRIPTION = "This week we climb one of the tougher hills in Dartmouth: Celtic Drive! ⚡" # noqa E501
 
