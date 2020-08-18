@@ -13,9 +13,9 @@ import argparse
 
 ROUTE_ID = 15125434
 
-DESCRIPTION = "This week we'll hit up the Common and waterfront trail in order to enjoy some of the best sights Dartmouth has to offer! ⚡" # noqa E501
+DESCRIPTION = "This week we climb one of the tougher hills in Dartmouth: Celtic Drive! ⚡" # noqa E501
 
-RUN_DATE = "August 13, 2020"
+RUN_DATE = "August 20, 2020"
 
 # ===================================================== #
 
