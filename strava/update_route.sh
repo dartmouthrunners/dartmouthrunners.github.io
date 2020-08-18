@@ -1,5 +1,4 @@
 #!/usr/local/bin/bash
-cd /Users/markdjthomas/Dropbox/coding/dartmouthrunners.github.io/
 /usr/local/bin/git pull
 /usr/local/bin/python3 strava/py/this_weeks_route.py --auth-token $1
 /usr/local/bin/git add strava/data/route_details.json
