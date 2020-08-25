@@ -11,11 +11,11 @@ import argparse
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 16915657
+ROUTE_ID = 15050887
 
-DESCRIPTION = "This week we climb one of the tougher hills in Dartmouth: Celtic Drive! ⚡" # noqa E501
+DESCRIPTION = "" # noqa E501
 
-RUN_DATE = "August 20, 2020"
+RUN_DATE = "August 27, 2020"
 
 # ===================================================== #
 
