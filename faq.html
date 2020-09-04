@@ -73,9 +73,8 @@
 			<ul class="white-nav nav navbar-nav navbar-right">
 			  <li><a href="index.html#about">About Us</a></li>
 			  <li><a href="schedule.html">Schedule</a></li>
-			  <!-- <li><a href="events.html">Events</a></li> -->
+			  <li><a href="events.html">Events</a></li>
 			  <li><a href="#faq">FAQ</a></li>
-			  <!-- <li><a href="https://dartmouthrunners.bigcartel.com/">Shop</a></li> -->
 			  <li><a href="#contact">Contact</a></li>
 
 			</ul>
@@ -160,49 +159,30 @@
 	<div class="contact-section spad fix">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5 col-md-offset-1 contact-info col-push">
-					<div class="section-title dark left">
-						<h2>Contact Us</h2>
-					</div>
-					<p>
-						Check out our <a href="faq.html">FAQ</a> page for more info on our weekly runs! <br />OR feel free to get in touch using the social buttons below!
-					</p>
-					<div class="social-icons">
-						<ul class="list-unstyled text-center mb-0">
-							<li class="list-unstyled-item">
-								<a href="mailto:dartmouthrunners@gmail.com">
-					            <i class="far fa-envelope"></i>
-				          	</a>
-							</li>
-							<li class="list-unstyled-item">
-								<a href="https://www.instagram.com/dartmouthrunners/">
-					            <i class="fab fa-instagram"></i>
-				          	</a>
-							</li>
-							<li class="list-unstyled-item">
-								<a href="https://www.facebook.com/pg/dartmouthrunners">
-					            <i class="fab fa-facebook-f"></i>
-				          </a>
-							</li>
-							<li class="list-unstyled-item">
-								<a href="https://www.strava.com/clubs/253520">
-					            <i class="fab fa-strava"></i>
-				          </a>
-							</li>
-							<li class="list-unstyled-item">
-                                                                <a href="https://discord.gg/2PbRU6v">
-                                                    <i class="fab fa-discord"></i>
-                                          </a>
-                                                        </li>
-						</ul>
-					</div>
+				<div class="section-title dark left">
+					<h2>Contact Us</h2>
 				</div>
-				<div class="col-md-6 col-pull">
-					<div class="carousel-container">
-						<div id="instafeed-carousel" class="carousel slide" data-interval="5000" data-ride="carousel">
-							<div class="carousel-inner" id="instafeed"></div>
-						</div>
-					</div>
+				<p>
+					Check out our <a href="faq.html">FAQ</a> page for more info on our weekly runs! <br />OR feel free to get in touch using the social buttons below!
+				</p>
+				<div class="social-icons">
+					<ul class="list-unstyled text-center mb-0">
+						<li class="list-unstyled-item">
+							<a href="mailto:dartmouthrunners@gmail.com"><i class="far fa-envelope"></i></a>
+						</li>
+						<li class="list-unstyled-item">
+							<a href="https://www.instagram.com/dartmouthrunners/"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li class="list-unstyled-item">
+							<a href="https://www.facebook.com/pg/dartmouthrunners"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li class="list-unstyled-item">
+							<a href="https://www.strava.com/clubs/dartmouthrunners"><i class="fab fa-strava"></i></a>
+						</li>
+						<li class="list-unstyled-item">
+							<a href="https://discord.gg/2PbRU6v"><i class="fab fa-discord"></i></a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -211,25 +191,6 @@
 	<footer class="footer-section">
 		<h2>2020 All rights reserved. Dartmouth Runners.</h2>
 	</footer>
-
-	<!-- Instafeed -->
-	<script type="text/javascript" src="vendor/instafeed.js/instafeed.min.js"></script>
-	<script type='text/javascript'>
-		var feed = new Instafeed({
-                        get: "user",
-                        userId: "5689721276",
-                        clientId: "076fbeeb432d441f81531393642a692e",
-                        accessToken: "5689721276.076fbee.e114280d9531430f8286041346253b1c",
-                        limit: 5,
-                        sortBy: 'most-recent',
-                        template: '<div class="item"><a href="{{link}}" target="_blank"><img src="{{image}}" alt="{{caption}}"/></a></div>',
-                        resolution: "standard_resolution",
-                        after: function() {
-                                $('#instafeed > div:nth-child(1)').addClass('active');
-                        }
-                });
-                feed.run();
-	</script>
 
 	<!-- Google Maps -->
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0mbom3mJfyXx7HjV6ktR59NAf3ITNzoA&callback=initMap">
