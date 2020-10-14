@@ -1,0 +1,631 @@
+/*-----------------*/
+/* Common Elements */
+html,
+body {
+	height: 100%;
+	font-family: "Roboto", sans-serif;
+	weight: 300;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Oswald", sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #343E5A;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	padding-top: 20px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22px;
+}
+
+p {
+	font-size: 16px;
+	color: #343E5A;
+	line-height: 30px;
+	font-family: "Roboto", sans-serif;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+	color: #90FFC4;
+}
+
+li,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* COVID RULES LIST */
+.covid-rules > ol > li {
+	text-align: left;
+	font-size: 16px;
+	padding-left: 1em;
+	padding-bottom: .5em;
+}
+
+
+
+/*-----------------*/
+/* Helper Elements */
+.fix {
+	overflow: hidden;
+}
+
+.col-push {
+	left: 50%;
+}
+
+.col-pull {
+	right: 50%;
+}
+
+.spad {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+:target:before {
+	content:"";
+	display:block;
+	height:65px; /* fixed header height*/
+	margin:-65px 0 0; /* negative fixed header height */
+}
+
+.section-title {
+	text-align: center;
+	margin-bottom: 25px;
+	padding-top: 25px;
+	position: relative;
+}
+
+.section-title h2 {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 400;
+}
+.section-title h2 span {
+	background: #90FFC4;
+	padding: 0 3px 5px;
+	display: inline-block;
+	color: #343E5A;
+}
+.section-title.left {
+	text-align: left;
+}
+.section-title.left:after {
+	left: 0;
+	margin-left: 0;
+}
+.section-title.dark h2 {
+	color: #343E5A;
+}
+
+.site-btn {
+	height: 50px;
+	width: auto;
+	border-width: 3px;
+	border-radius: 5px;
+	border-color: #90FFC4;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.site-btn:hover {
+	/* border-width: 10px; */
+}
+.site-btn a {
+	letter-spacing: 3px;
+	font-size: 16px;
+	font-family: 'Roboto';
+	color: #90FFC4;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.site-btn a:hover {
+	font-style: italic;
+}
+
+/* -------------- */
+/* Navigation Bar */
+.navbar-default {
+	border: none;
+	background-color: #343E5A;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	outline: none;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #90FFC4;
+	font-style: italic;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #90FFC4;
+	font-style: italic;
+	background-color: none;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	color: #90FFC4;
+	font-style: italic;
+	background-color: none;
+}
+
+/* Mobile version */
+.navbar-default .navbar-toggle {
+	 border-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	 background-color: #90FFC4;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	 background-color: #fff;
+}
+.navbar-brand {
+	padding-left: 5px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/* -------- */
+/* Masthead */
+.masthead {
+	position: relative;
+	height: 600px;
+	width: 100%;
+}
+.masthead-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: table;
+	text-align: center;
+}
+.masthead-content .masthead-center {
+	display: table-cell;
+	vertical-align: middle;
+}
+.masthead-content p {
+	font-size: 2em;
+	font-style: italic;
+	color: #fff;
+	padding-left: 5%;
+	padding-right: 5%;
+	line-height: 1.5em;
+	z-index: 999;
+}
+.masthead-logo {
+	max-height: 350px;
+	max-width: 75%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.masthead-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(143, 255, 198, 0);
+  z-index: -1;
+}
+.covervid-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	 background-color: #000;
+	 z-index: -10;
+}
+
+/* ------------- */
+/* About Section */
+.about-section {
+	position: relative;
+}
+.about-overlay {
+  position: absolute;
+  background-image: url("../img/back3.png");
+  background-position: center;
+  background-size: contain;
+  height: 125%;
+  margin-top: -100px;
+  min-width: 100%;
+  z-index: -999;
+}
+.about-info {
+	text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 25px;
+}
+.about-info p {
+	color: #343E5A;
+}
+.map-container {
+	position: relative;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+ 	z-index: 5;
+}
+#map {
+	height: 350px;
+	width: 100%;
+}
+
+/* -------------- */
+/* Strava Section */
+.strava-section {
+	position: relative;
+	background-color: #f6f6f6;
+	width: 100%;
+}
+.strava-section p {
+	color: #fff;
+}
+.strava-kms-crushed {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	overflow: hidden;
+}
+.strava-kms-crushed #strava-kms {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.strava-elevation {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+.strava-elevation #everest {
+	display: inline-block;
+	position: absolute;
+
+}
+.everest text {
+	font-family: "Oswald", sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+/* ---------------- */
+/* Schedule Section */
+.schedule-section {
+	position: relative;
+	margin-top: 65px;
+	width: 100%;
+	height: 75%;
+}
+
+/* ---------------- */
+/* FAQ Section */
+.faq-section {
+	display:block;
+	margin-top: 45px;
+	position: relative;
+}
+.faq-overlay {
+  position: absolute;
+  background-image: url("../img/back3.png");
+  background-position: 50% 50%;
+  background-size: contain;
+  height: 125%;
+  margin-top: -100px;
+  width: 100%;
+  z-index: -999;
+}
+.faq-info {
+	text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 5px;
+}
+.faq-info p {
+	color: #343E5A;
+}
+.faq-section h3 {
+  padding-bottom: 10px;
+}
+.faq-section a:hover {
+	font-style: italic;
+}
+
+.faq-section a {
+  color: #343E5A;
+  font-weight: bold;
+}
+.faq-section a:hover {
+	font-style: italic;
+}
+
+ /* --------------- */
+ /* Contact Section */
+ .contact-section {
+ 	position: relative;
+	background-color: #90FFC4;
+	z-index: -2;
+ }
+ .contact-section:after {
+ 	position: absolute;
+ 	content: "";
+ 	width: 50%;
+ 	height: 100%;
+ 	right: -15px;
+ 	top: 0;
+ 	z-index: -1;
+ }
+ .contact-section a {
+ 	color: #343E5A;
+	font-weight: bold;
+ }
+ .contact-section a:hover {
+	 font-style: italic;
+ }
+
+ .carousel-container {
+	position: relative;
+	width: 60%;
+	padding-top: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 25px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+ }
+ .carousel {
+	 padding-top: 25px;
+	 position: absolute;
+	 top: 0;
+ }
+
+ .contact-info .section-title {
+ 	margin-bottom: 25px;
+ }
+ .contact-info h3 {
+ 	font-weight: 400;
+ 	color: #343E5A;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.social-icons{
+	padding-top: 1em;
+	padding-bottom: 25px;
+	float: left;
+}
+ .social-icons ul {
+   margin-top: 2rem;
+ }
+ .social-icons ul > li {
+   margin-left: 1rem;
+   margin-right: 1rem;
+   display: inline-block;
+ }
+ .social-icons ul > li > a {
+   display: block;
+   color: white;
+   background-color: rgba(52, 62, 89, 0.80);
+   border-radius: 100%;
+   font-size: 24px;
+   line-height: 5rem;
+   height: 5rem;
+   width: 5rem;
+ }
+ .social-icons ul > li > a:hover {
+	background-color: rgba(52, 62, 89, 0.95);
+ }
+
+/* -------------- */
+/* Footer Section */
+.footer-section {
+	background: #343E5A;
+	text-align: center;
+}
+.footer-section h2 {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 18px 5%;
+}
+
+/* ----------------- */
+/* Responsive Design */
+/* Tablet: 768px - 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* Helper Elements */
+	.col-push {
+		left: 0;
+	}
+	.col-pull {
+		right: 0;
+	}
+
+	.strava-elevation {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* Contact Section */
+	.carousel-container {
+	  position: relative;
+	  width: 50%;
+	  padding-top: 50%;
+	  margin-right: 25%;
+	  margin-left: 25%;
+	  margin-top: 10px;
+	  margin-bottom: 25px;
+	  z-index: 5;
+	}
+	.contact-section::after {
+		width: 100%;
+	}
+	.contact-info {
+		margin-bottom: 25px;
+	}
+	.contact-info {
+		text-align: left;
+	}
+	.social-icons {
+		padding-top: 0px;
+		float: none;
+	}
+}
+
+/* Mobile: < 768px */
+@media only screen and (max-width: 767px) {
+	/* Helper Elements */
+	.col-push {
+		left: 0;
+	}
+	.col-pull {
+		right: 0;
+	}
+	.section-title.left {
+		text-align: center;
+	}
+
+	:target:before {
+		content:"";
+		display:block;
+		height:55px; /* fixed header height*/
+		margin:-55px 0 0; /* negative fixed header height */
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  	  color: #fff;
+   }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  		 color: #90FFC4;
+   }
+
+	.navbar-brand {
+		padding-left: 0px;
+	}
+
+	.masthead {
+		height: 500px;
+	}
+
+	/* About Section */
+	.about-overlay {
+	  display: none;
+	}
+	.about-info {
+		padding-left: 0%;
+		padding-right: 0%;
+		padding-top: 25px;
+	}
+	.about-info p {
+		color: #343E5A;
+	}
+	.carousel-container {
+	  position: relative;
+	  width: 100%;
+	  padding-top: 100%;
+	  margin-right: 0%;
+	  margin-left: 0%;
+	  margin-top: 10px;
+	  margin-bottom: 25px;
+	  z-index: 5;
+	}
+
+
+	/* About Section */
+	.faq-overlay {
+	  display: none;
+	}
+	.faq-info {
+		padding-left: 0%;
+		padding-right: 0%;
+		padding-top: 25px;
+	}
+	.faq-info p {
+		color: #343E5A;
+	}
+
+	.map-container {
+		position: relative;
+		padding-left: 0;
+		padding-right: 0;
+	 	z-index: 5;
+	}
+	#map {
+		height: 350px;
+		width: 100%;
+	}
+
+	.strava-elevation {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: -50px;
+	}
+
+	/* Contact Section */
+	.contact-section::after {
+		width: 100%;
+		right: 0;
+	}
+	.contact-info {
+		text-align: center;
+	}
+	.social-icons {
+		padding-top: 0px;
+		float: none;
+	}
+}
+
+/* WEIRD D3 issue with iPad in landscape */
+@media only screen and (width: 1024px){
+	.strava-kms-crushed {
+		margin-top: -55px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	.about-overlay {
+		background-size: cover;
+	}
+}

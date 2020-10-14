@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dartmouth Runners - Schedule</title>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Dartmouth Runners"/>
+	<meta name="keywords" content=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<!-- Favicons -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png"/>
+	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png"/>
+	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png"/>
+	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png"/>
+	<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png"/>
+	<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png"/>
+	<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png"/>
+	<link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png"/>
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png"/>
+	<link rel="manifest" href="favicons/manifest.json"/>
+	<meta name="msapplication-TileColor" content="#ffffff"/>
+	<meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png"/>
+	<meta name="theme-color" content="#ffffff"/>
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Dartmouth Runners"/>
+	<meta property="og:url" content="https://dartmouthrunners.com/"/>
+	<meta property="og:image" content="https://dartmouthrunners.com/img/social_meta.jpg"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Roboto:300,400,700" rel="stylesheet"/>
+
+	<!-- Stylesheets -->
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js" crossorigin="anonymous"></script>
+	<link href="css/style.css" rel="stylesheet"/>
+
+	<!-- JS libraries -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115311475-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-115311475-1');
+	</script>
+</head>
+<body>
+	<!-- Nav Bar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container" style="width: 100%">
+		 <div class"navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html"><img src="img/dra-05-06.svg" height="50"/></a>
+		 </div>
+		 <div id="navbar" class="navbar-collapse collapse">
+			<ul class="white-nav nav navbar-nav navbar-right">
+			  <li><a href="index.html#about">About Us</a></li>
+			  <li><a href="#schedule">Schedule</a></li>
+			  <li><a href="events.html">Events</a></li>
+			  <li><a href="faq.html">FAQ</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			</ul>
+		 </div>
+	  </div>
+	</nav>
+
+	<!-- Schedule Section -->
+	<a name="faq"></a>
+	<div class="faq-section spad">
+		<div class="faq-overlay"></div>
+		<div class="container">
+			<div class="section-title dark">
+				<h2>This week's route</h2>
+			</div>
+			<div class="faq-info" style="padding-top: 25px">
+				<h5 id="route-date"></h5>
+				<h3 id="route-name"></h3>
+				<p id="route-stats"></p>
+			</div>
+			<div class="map-container">
+				<div id="map"></div>
+			</div>
+			<div class="faq-info">
+				<div class="covid-rules">
+					<h3>COVID-19 Rules and Changes</h3>
+					<p>With the ongoing situation that is COVID-19, we will be enforcing a few extra rules/changes:</p>
+					<ol>
+						<li>
+							Please do not congregate on the path next to the Gazebo and instead use the grassy area on the hill across from it! This will ensure we have enough space to socially distance.
+						</li>
+						<li>
+							Every week a new route will be posted here and on <a href="https://www.strava.com/clubs/dartmouthrunners">Strava</a> that is in the form of a loop (no out-and-backs). All crew members will be randomly split into two or more groups of 10 or less and will run in opposite directions at staggered intervals.
+						</li>
+						<li>
+							Treat other runners, walkers, and pedestrians using the side-walk as if they ALWAYS have the right-of-way, regardless of the direction they are travelling or at what speed! As we will likely be in larger groups than most we want to respect the personal space and possible anxieties of others during this time! You may need to completely stop running and walk around or wait for others to pass.
+						</li>
+						<li>
+							Wearing masks is HIGHLY encouraged! If you feel comfortable running with a mask on, we kindly ask that you do so. We understand that this may be difficult for some especially during the hot and humid summer weather.
+						</li>
+						<li>
+							Please do not join if you are feeling unwell, are experiencing any of the <a href="https://novascotia.ca/coronavirus/when-to-seek-help/">symptoms related to COVID-19</a>, or have travelled outside of the Atlantic provinces in the past 14 days.
+						</li>
+						<li>
+							<a href="https://novascotia.ca/coronavirus/">Always adhere to the most up-to-date rules and guidelines put in place by the NS government</a>.
+						</li>
+					</ol>
+					<p>Any crew members who have been observed not following the rules above may be asked to leave and not return the following week.</p>
+				</div>
+			</div>
+			<div class="faq-info" style="display: none">
+				<h3 id="strava-link" style="padding-top: 15px; padding-bottom: 25px"></h3>
+			</div>
+			<br />
+		</div>
+	</div>
+
+	<!-- Contact section -->
+	<a name="contact"></a>
+	<div class="contact-section spad fix">
+		<div class="container">
+			<div class="row contact-info">
+				<div class="section-title dark left">
+					<h2>Contact Us</h2>
+				</div>
+				<p>
+					Check out our <a href="faq.html">FAQ</a> page for more info on our weekly runs! <br />OR feel free to get in touch using the social buttons below!
+				</p>
+				<div class="social-icons">
+					<ul class="list-unstyled text-center mb-0">
+						<li class="list-unstyled-item">
+							<a href="mailto:dartmouthrunners@gmail.com"><i class="far fa-envelope"></i></a>
+						</li>
+						<li class="list-unstyled-item">
+							<a href="https://www.instagram.com/dartmouthrunners/"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li class="list-unstyled-item">
+							<a href="https://www.facebook.com/pg/dartmouthrunners"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li class="list-unstyled-item">
+							<a href="https://www.strava.com/clubs/dartmouthrunners"><i class="fab fa-strava"></i></a>
+						</li>
+						<li class="list-unstyled-item">
+							<a href="https://discord.gg/2PbRU6v"><i class="fab fa-discord"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer-section">
+		<h2>2020 All rights reserved. Dartmouth Runners.</h2>
+	</footer>
+
+	<script type="text/javascript">
+		$.getJSON("strava/data/route_details.json", function(data) {
+			// populate the date
+			document.getElementById('route-date').innerHTML = data.date;
+
+			// populate the route name
+			document.getElementById('route-name').innerHTML = data.name;
+
+			// route stats
+			var dist = Math.round(10 * (data.distance/1000)) / 10;
+			var elev = Math.round(data.elevation_gain);
+			document.getElementById('route-stats').innerHTML = dist + 'km ' + '&nbsp;//&nbsp;&nbsp;' + elev + 'm elevation gain';
+
+			// route description
+			document.getElementById('route-description').innerHTML = data.description;
+
+			// strava link
+			document.getElementById('strava-link').innerHTML = 'Check out the route on <a href="https://www.strava.com/routes/' + data.id + '">Strava</a>';
+		})
+	</script>
+
+	<!-- Google Maps -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyA0mbom3mJfyXx7HjV6ktR59NAf3ITNzoA&callback=initMap">
+	</script>
+	<script>
+		function initMap() {
+			$.getJSON("strava/data/route_details.json", function(data) {
+
+				var latlng = new google.maps.LatLng(44.673715, -63.563881);
+				var options = {
+					zoom: 12,
+					center: latlng,
+					mapTypeId: google.maps.MapTypeId.ROADMAP,
+					disableDefaultUI: true,
+					navigationControl: false,
+					mapTypeControl: false
+				}
+
+				var map = new google.maps.Map(document.getElementById("map"), options);
+
+				var decodedPath = google.maps.geometry.encoding.decodePath(data.polyline);
+				var decodedLevels = decodeLevels("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
+
+				var polyline = new google.maps.Polyline({
+					path: decodedPath,
+					levels: decodedLevels,
+					strokeColor: "#FF0000",
+					strokeOpacity: 1.0,
+					strokeWeight: 2,
+					map: map
+				});
+
+				var infowindow = new google.maps.InfoWindow({
+					content: 'Sullivans Pond Gazebo'
+				});
+				var marker = new google.maps.Marker({
+					position: latlng,
+					map: map
+				});
+				infowindow.open(map, marker);
+
+				google.maps.Polyline.prototype.getBounds = function() {
+					var bounds = new google.maps.LatLngBounds();
+					this.getPath().forEach(function(e) {
+						bounds.extend(e);
+					});
+					return bounds;
+				}
+
+				map.fitBounds(polyline.getBounds());
+			});
+		}
+
+		function decodeLevels(encodedLevelsString) {
+			var decodedLevels = [];
+
+			for (var i = 0; i < encodedLevelsString.length; ++i) {
+				var level = encodedLevelsString.charCodeAt(i) - 63;
+				decodedLevels.push(level);
+			}
+			return decodedLevels;
+		}
+	</script>
+</body>
+</html>

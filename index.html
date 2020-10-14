@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dartmouth Runners</title>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Dartmouth Runners"/>
+	<meta name="keywords" content=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<!-- Favicons -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png"/>
+	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png"/>
+	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png"/>
+	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png"/>
+	<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png"/>
+	<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png"/>
+	<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png"/>
+	<link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png"/>
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png"/>
+	<link rel="manifest" href="favicons/manifest.json"/>
+	<meta name="msapplication-TileColor" content="#ffffff"/>
+	<meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png"/>
+	<meta name="theme-color" content="#ffffff"/>
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Dartmouth Runners"/>
+	<meta property="og:url" content="https://dartmouthrunners.com/"/>
+	<meta property="og:image" content="https://dartmouthrunners.com/img/social_meta.jpg"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Roboto:300,400,700" rel="stylesheet" crossorigin="anonymous"/>
+
+	<!-- Stylesheets -->
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js" crossorigin="anonymous"></script>
+	<link href="css/style.css" rel="stylesheet"/>
+
+	<!-- JS libraries -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115311475-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-115311475-1');
+	</script>
+</head>
+<body>
+	<!-- Nav Bar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container" style="width: 100%">
+		 <div class"navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><img src="img/dra-05-06.svg" height="50"/></a>
+		 </div>
+		 <div id="navbar" class="navbar-collapse collapse">
+			<ul class="white-nav nav navbar-nav navbar-right">
+			  <li><a href="#about">About Us</a></li>
+			  <li><a href="schedule.html">Schedule</a></li>
+			  <li><a href="events.html">Events</a></li>
+			  <li><a href="faq.html">FAQ</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			</ul>
+		 </div>
+	  </div>
+	</nav>
+
+	<!-- Masthead -->
+	<div class="masthead">
+		<div class="masthead-content">
+			<div class="masthead-overlay"></div>
+			<div class="masthead-center">
+				<div class="covervid-wrapper">
+					<video class="covervid-video" autoplay loop muted poster="img/bg-mobile-fallback.jpg">
+						<source src="mp4/bg-gr.mp4" type="video/mp4">
+					</video>
+				</div>
+				<img class="masthead-logo" src="img/dra-3.svg" alt="" />
+				<br />
+				<p>Running around lakes, trying to avoid hills.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- About Section -->
+	<a name="about"></a>
+	<div class="about-section spad">
+		<div class="about-overlay"></div>
+		<div class="container">
+			<div class="section-title dark">
+				<h2>Dartmouth Runners Association</h2>
+				<h3>All paces are welcome and newcomers are encouraged!</h3>
+			</div>
+			<div class="about-info">
+				<p>
+					Are you a Dartmouthian looking for a social run to add into your weekly routine? <br />
+					Join us for a 6KM run every Thursday at 6:30PM. We meet rain, shine, sleet, or snow at the Sullivan's Pond Gazebo, near the intersection of Crichton Avenue and Hawthorne Street, in the heart of the Darkside!
+				</p>
+			</div>
+			<div class="map-container">
+				<div id="map"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact section -->
+	<a name="contact"></a>
+	<div class="contact-section spad fix">
+		<div class="container">
+			<div class="row contact-info">
+				<div class="section-title dark left">
+					<h2>Contact Us</h2>
+				</div>
+				<p>
+					Check out our <a href="faq.html">FAQ</a> page for more info on our weekly runs! <br />OR feel free to get in touch using the social buttons below!
+				</p>
+				<div class="social-icons">
+					<ul class="list-unstyled text-center mb-0">
+						<li class="list-unstyled-item">
+							<a href="mailto:dartmouthrunners@gmail.com"><i class="far fa-envelope"></i></a>
+						</li>
+						<li class="list-unstyled-item">
+							<a href="https://www.instagram.com/dartmouthrunners/"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li class="list-unstyled-item">
+							<a href="https://www.facebook.com/pg/dartmouthrunners"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li class="list-unstyled-item">
+							<a href="https://www.strava.com/clubs/dartmouthrunners"><i class="fab fa-strava"></i></a>
+						</li>
+						<li class="list-unstyled-item">
+							<a href="https://discord.gg/2PbRU6v"><i class="fab fa-discord"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer-section">
+		<h2>2020 All rights reserved. Dartmouth Runners.</h2>
+	</footer>
+
+	<!-- covervid -->
+	<script src="vendor/covervid/covervid.min.js"></script>
+	<script type="text/javascript">
+		$('.covervid-video').coverVid(1280, 720);
+	</script>
+
+	<!-- Google Maps -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0mbom3mJfyXx7HjV6ktR59NAf3ITNzoA&callback=initMap">
+	</script>
+	<script>
+		function initMap() {
+			var uluru = {
+				lat: 44.673715,
+				lng: -63.563881
+			};
+			var map = new google.maps.Map(document.getElementById('map'), {
+				mapTypeControl: false,
+				disableDefaultUI: true,
+				scrollwheel: false,
+				navigationControl: false,
+				mapTypeControl: false,
+				scaleControl: false,
+				draggable: false,
+				zoom: 16,
+				center: uluru
+			});
+			var infowindow = new google.maps.InfoWindow({
+				content: 'Sullivans Pond Gazebo'
+			});
+			var marker = new google.maps.Marker({
+				position: uluru,
+				map: map
+			});
+			infowindow.open(map, marker);
+		}
+	</script>
+</body>
+</html>
