@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/usr/bin/bash
 
 curl -X POST https://www.strava.com/api/v3/oauth/token \
   -d client_id=23327 \

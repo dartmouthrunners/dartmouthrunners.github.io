@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 git pull
 python3 strava/py/this_weeks_route.py --auth-token $1
 git add strava/data/route_details.json
