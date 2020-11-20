@@ -232,14 +232,14 @@
 					map: map
 				});
 
-				var infowindow = new google.maps.InfoWindow({
-					content: 'Sullivans Pond Gazebo'
-				});
-				var marker = new google.maps.Marker({
-					position: latlng,
-					map: map
-				});
-				infowindow.open(map, marker);
+				//var infowindow = new google.maps.InfoWindow({
+				//	content: 'Sullivans Pond Gazebo'
+				//});
+				//var marker = new google.maps.Marker({
+				//	position: latlng,
+				//	map: map
+				//);
+				//infowindow.open(map, marker);
 
 				google.maps.Polyline.prototype.getBounds = function() {
 					var bounds = new google.maps.LatLngBounds();
