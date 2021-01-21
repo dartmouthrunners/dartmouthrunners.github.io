@@ -25,17 +25,15 @@
 	<![endif]-->
 </head>
 <body>
-
-	<div class="faq-section spad" style="background-color: 343E5A;">
-		<div class="container">
-			<div class="faq-info" style="position: absolute; left: 21%; top: 35%; transform: translateY(-100px); z-index: 1000;">
-				<h1 id="route-date" style="color: #90FFC4;"></h1>
-				<h3 id="route-stats" style="color: #90FFC4;"></h3>
-			</div>
-			
-			<div class="map-container">
-				<div id="map"></div>
-			</div>
+	<div class="container">
+		<br />
+		<div id="weekly-name-and-stats">
+			<h1 id="route-date" style="color: #90FFC4;"></h1>
+			<h3 id="route-stats" style="color: #90FFC4;"></h3>
+		</div>
+		
+		<div class="weekly-map-container">
+			<div id="weekly-map"></div>
 		</div>
 	</div>
 
@@ -70,7 +68,7 @@
 					mapTypeControl: false,
 					mapId: "f61cae3028a50fa9",
 				}
-				var map = new google.maps.Map(document.getElementById("map"), options);
+				var map = new google.maps.Map(document.getElementById("weekly-map"), options);
 
 				var decodedPath = google.maps.geometry.encoding.decodePath(data.polyline);
 				var decodedLevels = decodeLevels("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
