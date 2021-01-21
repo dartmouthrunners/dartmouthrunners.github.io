@@ -27,12 +27,13 @@
 <body>
 	<div class="container">
 		<br />
-		<div id="weekly-name-and-stats">
-			<h1 id="route-date" style="color: #90FFC4;"></h1>
-			<h3 id="route-stats" style="color: #90FFC4;"></h3>
+		<div id="weekly-stats-container">
+			<div id="weekly-name-and-stats">
+				<h3 id="route-date" style="color: #90FFC4; text-align: center; padding-bottom: 10px;"></h3>
+				<h5 id="route-stats" style="color: #90FFC4; text-align: center;"></h5>
+			</div>
 		</div>
-		
-		<div class="weekly-map-container">
+		<div id="weekly-map-container">
 			<div id="weekly-map"></div>
 		</div>
 	</div>
@@ -47,7 +48,7 @@
 			// route stats
 			var dist = Math.round(10 * (data.distance/1000)) / 10;
 			var elev = Math.round(data.elevation_gain);
-			document.getElementById('route-stats').innerHTML = dist + 'km ' + '&nbsp;//&nbsp;&nbsp;' + elev + 'm elevation gain';
+			document.getElementById('route-stats').innerHTML = dist + 'km ' + '&nbsp;//&nbsp;&nbsp;' + elev + 'm elev';
 
 		})
 	</script>

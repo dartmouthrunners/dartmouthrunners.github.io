@@ -468,6 +468,27 @@ ul {
 	padding: 18px 5%;
 }
 
+
+/* WEEKLY ROUTE MAP */
+.weekly-map-container {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#weekly-map {
+	height: 400px;
+	width: 100%;
+}
+#weekly-name-and-stats {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1000;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+
 /* ----------------- */
 /* Responsive Design */
 /* Tablet: 768px - 991px */
@@ -519,7 +540,7 @@ ul {
 	}
 	#weekly-map {
 		height: 400px;
-		width: 400px;
+		width: 100%;
 	}
 	#weekly-name-and-stats {
 		position: absolute;
@@ -613,10 +634,6 @@ ul {
 		height: 350px;
 		width: 100%;
 	}
-	#weekly-map {
-		height: 400px;
-		width: 90%;
-	}
 
 	.strava-elevation {
 		width: 100%;
@@ -644,18 +661,20 @@ ul {
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
+		padding-left: 0;
+		padding-right: 0;
 	}
+	
 	#weekly-map {
-		height: 400px;
-		width: 400px;
+		height: 350px;
+		width: 350px;
 	}
+	
 	#weekly-name-and-stats {
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
 		z-index: 1000;
-		padding-top: 10px;
-		margin-top: 10px;
 	}
 
 }
@@ -671,23 +690,4 @@ ul {
 	.about-overlay {
 		background-size: cover;
 	}
-}
-
-/* WEEKLY ROUTE MAP */
-.weekly-map-container {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-}
-#weekly-map {
-	height: 400px;
-	width: 400px;
-}
-#weekly-name-and-stats {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	z-index: 1000;
-	padding-top: 10px;
-	margin-top: 10px;
 }
