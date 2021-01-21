@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dartmouth Runners - Schedule</title>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Dartmouth Runners"/>
+	<meta name="keywords" content=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Roboto:300,400,700" rel="stylesheet"/>
+
+	<!-- Stylesheets -->
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js" crossorigin="anonymous"></script>
+	<link href="css/style.css" rel="stylesheet"/>
+
+	<!-- JS libraries -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<div class="faq-section spad" style="background-color: 343E5A;">
+		<div class="container">
+			<div class="faq-info" style="position: absolute; left: 21%; top: 35%; transform: translateY(-100px); z-index: 1000;">
+				<h1 id="route-date" style="color: #90FFC4;"></h1>
+				<h3 id="route-stats" style="color: #90FFC4;"></h3>
+			</div>
+			
+			<div class="map-container">
+				<div id="map"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript">
+		$.getJSON("strava/data/route_details.json", function(data) {
+			// populate the date
+			document.getElementById('route-date').innerHTML = data.date;
+
+			// route stats
+			var dist = Math.round(10 * (data.distance/1000)) / 10;
+			var elev = Math.round(data.elevation_gain);
+			document.getElementById('route-stats').innerHTML = dist + 'km ' + '&nbsp;//&nbsp;&nbsp;' + elev + 'm elevation gain';
+
+		})
+	</script>
+
+	<!-- Google Maps -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyA0mbom3mJfyXx7HjV6ktR59NAf3ITNzoA&map_ids=f61cae3028a50fa9&callback=initMap">
+	</script>
+	<script>
+		function initMap() {
+			$.getJSON("strava/data/route_details.json", function(data) {
+
+				var latlng = new google.maps.LatLng(44.673715, -63.563881);
+				var options = {
+					center: latlng,
+					zoom: 12,
+					disableDefaultUI: true,
+					navigationControl: false,
+					mapTypeControl: false,
+					mapId: "f61cae3028a50fa9",
+				}
+				var map = new google.maps.Map(document.getElementById("map"), options);
+
+				var decodedPath = google.maps.geometry.encoding.decodePath(data.polyline);
+				var decodedLevels = decodeLevels("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
+				var polyline = new google.maps.Polyline({
+					path: decodedPath,
+					levels: decodedLevels,
+					strokeColor: "#90FFC4",
+					strokeOpacity: 1.0,
+					strokeWeight: 2,
+					map: map
+				});
+
+				google.maps.Polyline.prototype.getBounds = function() {
+					var bounds = new google.maps.LatLngBounds();
+					this.getPath().forEach(function(e) {
+						bounds.extend(e);
+					});
+					return bounds;
+				}
+				
+				map.fitBounds(polyline.getBounds());
+			});
+		}
+
+		function decodeLevels(encodedLevelsString) {
+			var decodedLevels = [];
+
+			for (var i = 0; i < encodedLevelsString.length; ++i) {
+				var level = encodedLevelsString.charCodeAt(i) - 63;
+				decodedLevels.push(level);
+			}
+			return decodedLevels;
+		}
+	</script>
+</body>
+</html>

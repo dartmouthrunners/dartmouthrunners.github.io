@@ -595,6 +595,10 @@ ul {
 		height: 350px;
 		width: 100%;
 	}
+	#weekly-map {
+		height: 400px;
+		width: 90%;
+	}
 
 	.strava-elevation {
 		width: 100%;

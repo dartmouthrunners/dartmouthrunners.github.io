@@ -228,15 +228,6 @@
 					map: map
 				});
 
-				//var infowindow = new google.maps.InfoWindow({
-				//	content: 'Sullivans Pond Gazebo'
-				//});
-				//var marker = new google.maps.Marker({
-				//	position: latlng,
-				//	map: map
-				//);
-				//infowindow.open(map, marker);
-
 				google.maps.Polyline.prototype.getBounds = function() {
 					var bounds = new google.maps.LatLngBounds();
 					this.getPath().forEach(function(e) {
@@ -245,7 +236,7 @@
 					return bounds;
 				}
 
-				map.fitBounds(polyline.getBounds());
+				map.fitBounds(polyline.getBounds(), [0, 0, 0, 0]);
 			});
 		}
 
