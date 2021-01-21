@@ -510,6 +510,24 @@ ul {
 		padding-top: 0px;
 		float: none;
 	}
+	
+	/* WEEKLY ROUTE MAP */
+	.weekly-map-container {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#weekly-map {
+		height: 400px;
+		width: 400px;
+	}
+	#weekly-name-and-stats {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 1000;
+	}
+
 }
 
 /* Mobile: < 768px */
@@ -619,6 +637,27 @@ ul {
 		padding-top: 0px;
 		float: none;
 	}
+
+	
+	/* WEEKLY ROUTE MAP */
+	.weekly-map-container {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#weekly-map {
+		height: 400px;
+		width: 400px;
+	}
+	#weekly-name-and-stats {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 1000;
+		padding-top: 10px;
+		margin-top: 10px;
+	}
+
 }
 
 /* WEIRD D3 issue with iPad in landscape */
