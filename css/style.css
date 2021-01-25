@@ -471,7 +471,8 @@ ul {
 
 /* WEEKLY ROUTE MAP */
 #weekly-stats {
-	position: absolute;
+	position:absolute;
+	top: 10px;
 	text-align: center;
 	width: 100%;
 	z-index: 1000;
@@ -480,10 +481,11 @@ ul {
 }
 
 #weekly-map {
+	position: absolute;
+	top: 0px;
 	height: 500px;
 	width: 100%;
 }
-
 
 
 /* ----------------- */
