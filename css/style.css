@@ -54,17 +54,6 @@ ul {
 	padding: 0;
 }
 
-
-/* COVID RULES LIST */
-.covid-rules > ol > li {
-	text-align: left;
-	font-size: 16px;
-	padding-left: 1em;
-	padding-bottom: .5em;
-}
-
-
-
 /*-----------------*/
 /* Helper Elements */
 .fix {
@@ -282,59 +271,6 @@ ul {
 	width: 100%;
 }
 
-/* -------------- */
-/* Strava Section */
-.strava-section {
-	position: relative;
-	background-color: #f6f6f6;
-	width: 100%;
-}
-.strava-section p {
-	color: #fff;
-}
-.strava-kms-crushed {
-	position: relative;
-	width: 100%;
-	height: 400px;
-	text-align: center;
-	overflow: hidden;
-}
-.strava-kms-crushed #strava-kms {
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-.strava-elevation {
-	position: relative;
-	width: 100%;
-	height: 400px;
-	text-align: center;
-	overflow: hidden;
-	margin-left: auto;
-	margin-right: auto;
-}
-.strava-elevation #everest {
-	display: inline-block;
-	position: absolute;
-
-}
-.everest text {
-	font-family: "Oswald", sans-serif;
-	font-size: 24px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
-
-/* ---------------- */
-/* Schedule Section */
-.schedule-section {
-	position: relative;
-	margin-top: 65px;
-	width: 100%;
-	height: 75%;
-}
-
 /* ---------------- */
 /* FAQ Section */
 .faq-section {
@@ -347,7 +283,7 @@ ul {
   background-image: url("../img/back3.png");
   background-position: 50% 50%;
   background-size: contain;
-  height: 125%;
+  height: 100%;
   margin-top: -100px;
   width: 100%;
   z-index: -999;
@@ -398,23 +334,6 @@ ul {
  }
  .contact-section a:hover {
 	 font-style: italic;
- }
-
- .carousel-container {
-	position: relative;
-	width: 60%;
-	padding-top: 60%;
-	margin-right: 20%;
-	margin-left: 20%;
-	margin-bottom: 25px;
-	background-position: center center;
-	background-repeat: no-repeat;
-	overflow: hidden;
- }
- .carousel {
-	 padding-top: 25px;
-	 position: absolute;
-	 top: 0;
  }
 
  .contact-info .section-title {
@@ -468,6 +387,13 @@ ul {
 	padding: 18px 5%;
 }
 
+/* COVID RULES LIST */
+.covid-rules > ol > li {
+	text-align: left;
+	font-size: 16px;
+	padding-left: 1em;
+	padding-bottom: .5em;
+}
 
 /* WEEKLY ROUTE MAP */
 #weekly-stats {
@@ -500,23 +426,6 @@ ul {
 		right: 0;
 	}
 
-	.strava-elevation {
-		width: 50%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	/* Contact Section */
-	.carousel-container {
-	  position: relative;
-	  width: 50%;
-	  padding-top: 50%;
-	  margin-right: 25%;
-	  margin-left: 25%;
-	  margin-top: 10px;
-	  margin-bottom: 25px;
-	  z-index: 5;
-	}
 	.contact-section::after {
 		width: 100%;
 	}
@@ -581,17 +490,6 @@ ul {
 	.about-info p {
 		color: #343E5A;
 	}
-	.carousel-container {
-	  position: relative;
-	  width: 100%;
-	  padding-top: 100%;
-	  margin-right: 0%;
-	  margin-left: 0%;
-	  margin-top: 10px;
-	  margin-bottom: 25px;
-	  z-index: 5;
-	}
-
 
 	/* About Section */
 	.faq-overlay {
@@ -617,13 +515,6 @@ ul {
 		width: 100%;
 	}
 
-	.strava-elevation {
-		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: -50px;
-	}
-
 	/* Contact Section */
 	.contact-section::after {
 		width: 100%;
@@ -639,13 +530,7 @@ ul {
 
 }
 
-/* WEIRD D3 issue with iPad in landscape */
-@media only screen and (width: 1024px){
-	.strava-kms-crushed {
-		margin-top: -55px;
-	}
-}
-
+/* Weird issue with iPad in landscape */
 @media only screen and (min-width: 1800px) {
 	.about-overlay {
 		background-size: cover;
