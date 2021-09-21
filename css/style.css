@@ -536,3 +536,20 @@ ul {
 		background-size: cover;
 	}
 }
+
+
+.vaccine-button {
+  background-color: #343E5A !important;
+  color: white !important;
+  padding: 0.5em 1em;
+  border: 2px solid #343E5A; 
+  border-radius: 8px;
+  font-size: 22px;
+  transition-duration: 0.4s;
+}
+
+.vaccine-button:hover {
+  border: 2px solid #343E5A; 
+  background-color: white !important;
+  color: #343E5A !important;
+}
