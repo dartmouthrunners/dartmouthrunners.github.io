@@ -283,8 +283,8 @@ ul {
   background-image: url("../img/back3.png");
   background-position: 50% 50%;
   background-size: contain;
-  height: 100%;
-  /* margin-top: -100px; */
+  height: 125%;
+  margin-top: -100px;
   width: 100%;
   z-index: -999;
 }
