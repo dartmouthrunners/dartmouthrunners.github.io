@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 git pull
 python3 strava/py/this_weeks_route.py --auth-token $1
