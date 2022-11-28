@@ -11,11 +11,11 @@ import argparse
 # ===================================================== #
 # THIS IS THE ONLY THING THAT NEEDS TO CHANGE EACH WEEK #
 
-ROUTE_ID = 15809780
+ROUTE_ID = 15050887
 
 DESCRIPTION = "" # noqa E501
 
-RUN_DATE = "November 22, 2022 @ 6:30PM"
+RUN_DATE = "November 29, 2022 @ 6:30PM"
 
 # ===================================================== #
 
