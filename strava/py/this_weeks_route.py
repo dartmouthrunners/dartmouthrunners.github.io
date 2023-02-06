@@ -15,7 +15,7 @@ ROUTE_ID = 22344309
 
 DESCRIPTION = "" # noqa E501
 
-RUN_DATE = "February 2, 2022 @ 6:30PM"
+RUN_DATE = "February 7, 2022 @ 6:30PM"
 
 # ===================================================== #
 
